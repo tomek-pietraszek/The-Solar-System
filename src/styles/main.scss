@@ -1,0 +1,16 @@
+//importing the partial scss file: _base.scss
+// @use "base";
+// You need the base only when you are not using bootstrap. In that case, go to _base.scss
+// to customize it as you may want.
+
+//importing the partial scss file: _variables.scss
+@use "variables";
+
+//importing bootstrap
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// Write your sass code here or import partials
+
+h1 {
+  color: tomato;
+}
