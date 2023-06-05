@@ -5,12 +5,15 @@
 
 //importing the partial scss file: _variables.scss
 @use "variables";
+@use "base";
+@use"landingPage";
+
 
 //importing bootstrap
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 // Write your sass code here or import partials
 
-h1 {
-  
+body {
+    background-color: black;
 }
