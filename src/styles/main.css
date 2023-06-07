@@ -10760,7 +10760,7 @@ textarea.form-control-lg {
 }
 :root {
   --planetSize: 8px;
-  --orbitSpeed: 1s;
+  --orbitSpeed: 8s;
 }
 
 body {
@@ -10788,12 +10788,16 @@ header {
   right: 0;
 }
 
+a:hover {
+  color: hsl(0deg, 2%, 50%);
+}
+
 .planet, .star {
   background-size: cover;
 }
 
 .wrapper {
-  margin-top: 190px;
+  margin-top: 200px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10897,9 +10901,6 @@ footer a {
 }
 
 @media (min-width: 576px) {
-  .wrapper {
-    margin-top: 180px;
-  }
   .sun .star {
     width: calc(var(--planetSize) * 48);
     height: calc(var(--planetSize) * 48);
@@ -11335,10 +11336,10 @@ footer a {
   }
   .modal {
     position: fixed;
-    top: 85%;
+    top: 60%;
     left: 80%;
     transform: translate(-50%, -50%);
-    width: 400px;
+    width: 450px;
     max-width: 100%;
   }
 }
