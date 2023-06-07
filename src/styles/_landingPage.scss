@@ -19,12 +19,17 @@ body {
    //    indian version!
     // top: 0px;
     // bottom: 0px;
- background: url(/assets/images/background.png)  top;
+ background: url(/assets/images/background.png)top ;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
  background-size: cover;
  display: flex;
  flex-direction: column;
  align-items: center;
 }
+
+
+
 main {
     width: 100%;
 }
@@ -50,7 +55,7 @@ header {
 
 
 .wrapper {
-    margin-top: 120px;
+    margin-top: 190px;
     display: flex;
  flex-direction: column;
  align-items: center;
@@ -71,8 +76,8 @@ header {
     
 .sun {
     .star {
-        width: calc(var(--planetSize) * 28);
-        height: calc(var(--planetSize) * 28);
+        width: calc(var(--planetSize) * 25);
+        height: calc(var(--planetSize) * 25);
         background: url(/assets/images/sun.png) no-repeat;
         background-size: cover;
         animation: spin 300s infinite linear;
@@ -81,8 +86,8 @@ header {
 
 .mercury {
     .planet {
-        width: calc(var(--planetSize) * 26);
-        height: calc(var(--planetSize) * 26);
+        width: calc(var(--planetSize) *23);
+        height: calc(var(--planetSize) *23);
         background: url(/assets/images/mercury.png);
         background-size: cover;
         animation: spin 300s infinite linear reverse;
@@ -91,8 +96,8 @@ header {
 
 .venus {
     .planet {
-        width: calc(var(--planetSize) * 25);
-        height: calc(var(--planetSize) * 25);
+        width: calc(var(--planetSize) * 23);
+        height: calc(var(--planetSize) * 23);
         background: url(/assets/images/venus.png);
         background-size: cover;
         animation: spin 300s infinite linear;
@@ -101,8 +106,8 @@ header {
 
 .earth {
     .planet {
-        width: calc(var(--planetSize) * 26);
-        height: calc(var(--planetSize) * 26);
+        width: calc(var(--planetSize) * 24);
+        height: calc(var(--planetSize) * 24);
         background: url(/assets/images/earth2.png);
         background-size: cover;
         animation: spin 300s infinite linear reverse;
@@ -111,8 +116,8 @@ header {
 
 .mars {
     .planet {
-        width: calc(var(--planetSize) * 26);
-        height: calc(var(--planetSize) * 26);
+        width: calc(var(--planetSize) * 24);
+        height: calc(var(--planetSize) * 24);
         background: url(/assets/images/mars.png);
         background-size: cover;
         animation: spin 300s infinite linear;
@@ -121,8 +126,8 @@ header {
 
 .jupiter {
     .planet {
-        width: calc(var(--planetSize) * 27);
-        height: calc(var(--planetSize) * 27);
+        width: calc(var(--planetSize) * 24);
+        height: calc(var(--planetSize) * 24);
         background: url(/assets/images/jupiter1.png);
         background-size: cover;
         animation: spin 300s infinite linear reverse;
@@ -144,8 +149,8 @@ header {
 
 .uranus {
     .planet {
-        width: calc(var(--planetSize) * 26);
-        height: calc(var(--planetSize) * 26);
+        width: calc(var(--planetSize) * 23);
+        height: calc(var(--planetSize) * 23);
         background: url(/assets/images/uranus.png);
         background-size: cover;
         animation: spin 300s infinite linear reverse;
@@ -154,8 +159,8 @@ header {
 
 .neptune {
     .planet {
-        width: calc(var(--planetSize) * 30);
-        height: calc(var(--planetSize) * 30);
+        width: calc(var(--planetSize) * 27);
+        height: calc(var(--planetSize) * 27);
         background: url(/assets/images/neptune.png);
         background-size: cover;
         animation: spin 300s infinite linear;
@@ -192,26 +197,73 @@ footer a {
         
 .sun {
     .star {
-        width: calc(var(--planetSize) * 55);
-        height: calc(var(--planetSize) * 55);
+        width: calc(var(--planetSize) * 48);
+        height: calc(var(--planetSize) * 48);
         
     }
 }
 
 .mercury {
     .planet {
-        width: calc(var(--planetSize) * 55);
-        height: calc(var(--planetSize) * 55);
+        width: calc(var(--planetSize) * 45);
+        height: calc(var(--planetSize) * 45);
         
      }
 }
 
 .venus {
     .planet {
-        width: calc(var(--planetSize) * 55);
-        height: calc(var(--planetSize) * 55);
-        background: url(/assets/images/venus.png);
-        background-size: cover;
+        width: calc(var(--planetSize) * 40);
+        height: calc(var(--planetSize) * 40);
+       
+     }
+}
+
+.earth {
+    .planet {
+        width: calc(var(--planetSize) * 42);
+        height: calc(var(--planetSize) * 42);
+       
+     }
+}
+
+.mars {
+    .planet {
+        width: calc(var(--planetSize) * 43);
+        height: calc(var(--planetSize) * 43);
+       
+     }
+}
+
+.jupiter {
+    .planet {
+        width: calc(var(--planetSize) *43);
+        height: calc(var(--planetSize) *43);
+       
+     }
+}
+
+.saturn {
+    .planet {
+        width: calc(var(--planetSize) * 70);
+        height: calc(var(--planetSize) * 35);
+       
+     }
+}
+
+.uranus {
+    .planet {
+        width: calc(var(--planetSize) * 40);
+        height: calc(var(--planetSize) * 40);
+       
+     }
+}
+
+.neptune {
+    .planet {
+        width: calc(var(--planetSize) * 46);
+        height: calc(var(--planetSize) * 46);
+       
      }
 }
 
