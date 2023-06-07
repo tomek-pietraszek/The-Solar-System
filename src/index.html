@@ -3,6 +3,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- -------  !important! ------- -->
     <!-- in case of merging swap the stylesheet links!  -->
     <!-- <link rel="stylesheet" href="styles/main.scss" /> -->
@@ -10,7 +11,7 @@
 
     <title>The Solar System</title>
   </head>
-  <body>
+  <body class="min-vw-100">
     <header class="container-fluid fixed-top">
       <nav class="navbar navbar-expand-sm navbar-dark">
         <div class="container-fluid text-primary">
@@ -44,15 +45,15 @@
       <!-- Animation -->
 
       <div class="wrapper">
-        <div class="sun">
+        <div class="sun mb-5 mb-lg-0">
           <div class="star"></div>
           <a class="text-decoration-none d-xl-none" href="#"
             ><h1 class="text-white text-center display-4 fw-normal">Sun</h1></a
           >
         </div>
 
-        <div class="mercury">
-          <div class="planet">
+        <div class="mercury mb-5 mb-lg-0">
+          <div class="planet mb-2">
             <div class="shadow"></div>
           </div>
           <a class="text-decoration-none d-xl-none" href="#"
@@ -62,8 +63,8 @@
           >
         </div>
 
-        <div class="venus">
-          <div class="planet">
+        <div class="venus mb-5 mb-lg-0">
+          <div class="planet mb-3">
             <div class="shadow"></div>
           </div>
           <a class="text-decoration-none d-xl-none" href="#"
@@ -73,8 +74,8 @@
           >
         </div>
 
-        <div class="earth">
-          <div class="planet">
+        <div class="earth mb-5 mb-lg-0">
+          <div class="planet mb-3">
             <div class="shadow"></div>
           </div>
           <a class="text-decoration-none d-xl-none" href="#"
@@ -84,8 +85,8 @@
           >
         </div>
 
-        <div class="mars">
-          <div class="planet">
+        <div class="mars mb-5 mb-lg-0">
+          <div class="planet mb-3">
             <div class="shadow"></div>
           </div>
           <a class="text-decoration-none d-xl-none" href="#"
@@ -93,8 +94,8 @@
           >
         </div>
 
-        <div class="jupiter">
-          <div class="planet">
+        <div class="jupiter mb-5 mb-lg-0 ">
+          <div class="planet mb-3">
             <div class="shadow"></div>
           </div>
           <a class="text-decoration-none d-xl-none" href="#"
@@ -104,8 +105,8 @@
           >
         </div>
 
-        <div class="saturn">
-          <div class="planet">
+        <div class="saturn mb-5 mb-lg-0">
+          <div class="planet mb-1">
             <div class="shadow"></div>
           </div>
           <a class="text-decoration-none d-xl-none" href="#"
@@ -115,8 +116,8 @@
           >
         </div>
 
-        <div class="uranus">
-          <div class="planet">
+        <div class="uranus mb-5 mb-lg-0">
+          <div class="planet mb-3">
             <div class="shadow"></div>
           </div>
           <a class="text-decoration-none d-xl-none" href="#"
@@ -126,8 +127,8 @@
           >
         </div>
 
-        <div class="neptune">
-          <div class="planet">
+        <div class="neptune ">
+          <div class="planet mb-3">
             <div class="shadow"></div>
           </div>
           <a class="text-decoration-none d-xl-none" href="#"
@@ -141,8 +142,12 @@
 
     <!-- modal -->
 
-    <footer class=" container-fluid ">
-      .container-fluid
+    <footer class=" container-fluid mt-5 ">
+      <div class="container-fluid d-flex align-items-center justify-content-center text-white d-xl-none fs-3 ">
+        <i class="fa-brands fa-instagram mx-3"></i>
+        <i class="fa-brands fa-github mx-3"></i>
+        <i class="fa-brands fa-linkedin mx-3"></i>
+      </div>
       <div class="container-fluid d-none container-fluid d-xl-flex justify-content-center">
         <a data-bs-toggle="modal" data-bs-target="#modalSun" href="#">Sun</a>
         <div class="modal fade modal-xxl" id="modalSun">
