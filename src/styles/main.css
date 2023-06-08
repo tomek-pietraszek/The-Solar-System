@@ -5,6 +5,7 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -10760,11 +10761,15 @@ textarea.form-control-lg {
 }
 :root {
   --planetSize: 8px;
-  --orbitSpeed: 8s;
+  --orbitSpeed: 1s;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  width: 98vw;
+  width: 100vw;
   height: 100%;
   background: url(/assets/images/background.png) top;
   background-repeat: no-repeat;
@@ -10773,6 +10778,19 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.scroll {
+  position: fixed;
+  top: 75vh;
+  right: 10px;
+  z-index: 9999;
+  font-size: 15px;
+  margin-right: 5px;
+  background-color: rgba(255, 255, 255, 0.147);
+  border: 1px solid white;
+  padding: 20px 7.5px;
+  border-radius: 20px;
 }
 
 main {
@@ -10896,11 +10914,20 @@ footer a {
   margin: 0 20px;
 }
 
+.modal-content {
+  background-color: rgba(255, 255, 255, 0.558);
+}
+
 .modal-backdrop {
   z-index: -1;
 }
 
 @media (min-width: 576px) {
+  .scroll {
+    font-size: 30px;
+    margin-right: 10px;
+    border: 2px solid white;
+  }
   .sun .star {
     width: calc(var(--planetSize) * 48);
     height: calc(var(--planetSize) * 48);
@@ -10939,6 +10966,50 @@ footer a {
   }
 }
 @media (min-width: 1200px) {
+  p {
+    color: white;
+    font-family: "Anonymous Pro", monospace;
+  }
+  .line-1 {
+    position: relative;
+    top: 30%;
+    left: -15%;
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    font-size: 2rem;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+    z-index: 99999;
+  }
+  /* Animation */
+  .anim-typewriter {
+    animation: typewriter 10s steps(44) 1s 1 normal both, blinkTextCursor 500ms steps(44) 22 both;
+  }
+  @keyframes typewriter {
+    0% {
+      width: 0;
+    }
+    80% {
+      width: 26em;
+    }
+    99% {
+      width: 26em;
+    }
+    100% {
+      width: 0;
+    }
+  }
+  @keyframes blinkTextCursor {
+    from {
+      border-right-color: rgba(255, 255, 255, 0.75);
+    }
+    to {
+      border-right-color: rgba(255, 255, 255, 0);
+    }
+  }
   body {
     display: block;
   }
@@ -11336,10 +11407,10 @@ footer a {
   }
   .modal {
     position: fixed;
-    top: 60%;
-    left: 80%;
+    top: 62%;
+    left: 83%;
     transform: translate(-50%, -50%);
-    width: 450px;
+    width: 400px;
     max-width: 100%;
   }
 }
