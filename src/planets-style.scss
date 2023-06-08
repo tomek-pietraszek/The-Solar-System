@@ -1,0 +1,135 @@
+
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+
+
+body {
+
+    background: 
+    
+    url(/assets/images/background.png);
+    
+
+    background-size: cover;
+    background-attachment: fixed;
+}
+.logo {
+  width: 200px;
+  position: absolute;
+  top: -1.5rem;
+  
+}
+main {
+
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    text-indent: 1rem;
+    font-size: 1.1rem;
+    
+ 
+}
+.text {
+    padding: 1rem 2.5rem;
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.table {
+
+  padding: 0.5rem;
+  margin-top:1rem ;
+}
+
+.fourth {
+  padding: 2.5rem;
+  margin-top: 1.2rem;
+  
+}
+
+.custom-class {
+    height: 400px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+}
+.carousel .carousel-inner .carousel-item  img{
+
+     height: 90%;
+     margin: 0 auto;
+}
+
+
+.d-block {
+    animation: rotation 122s infinite linear;
+  }
+
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    main {
+      margin-top: 4rem;
+    }
+    table {
+      font-size: 1.2rem;
+    }
+
+    h1, h2 {
+      padding-bottom: 2rem;
+    }
+    .logo {
+      display: none;
+    }
+  }
+
+
+  @media screen and (min-width: 1000px) {
+    main {
+      font-size: 1rem;
+      padding-top: 4rem;
+        height: 100vh;
+        width: 100vw;
+        display: grid;
+        grid-template-columns: 40% 60%;
+        grid-template-rows: 1fr 1fr;
+    }
+    .navbar-collapse  {
+      position: fixed;
+      right: 0;
+      top: 0;
+      background-color: black;
+      z-index: 1;
+ 
+    }
+
+}
+
+h1, h2 {
+  padding-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+ 
+}
+
+/* transparent background? */
+ main div p {
+
+   background-color: rgba(230, 229, 229, 0.2);
+   color: white;
+   border-radius: 5px;
+ }
