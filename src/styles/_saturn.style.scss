@@ -118,3 +118,37 @@ h1, h2 {
    color: white;
    border-radius: 5px;
  } */
+
+ footer{
+  display: flex;
+
+
+} 
+footer ul{
+  list-style: none;
+  
+}
+footer ul li{
+  display: inline;
+  padding: 10px;
+  font-size: 30px;
+  
+}
+.fa-brands{
+  color: #fff;
+  transform: scale(1.1);
+
+}
+.fa-brands:hover{
+  scale: 1.2;
+  box-shadow: rgba(255, 253, 253, 0.4) 0px 30px 90px;
+}
+.fa-instagram:hover{
+  color: #E4405F;
+}
+.fa-square-github:hover{
+  color: #c4c4c4;
+}
+.fa-linkedin:hover{
+  color: #0077B5;
+}
