@@ -1,0 +1,177 @@
+[33mcommit 550c437711decb84183d4bcaf7f11e832dc55818[m[33m ([m[1;36mHEAD -> [m[1;32mtomek[m[33m, [m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m
+Author: Tomasz Pietraszek <tomekpietraszek@gmail.com>
+Date:   Mon Jun 5 14:42:47 2023 +0200
+
+    conflicts solved
+
+[33mcommit 50f620f130a776227bd4d0eec4c12fecdee54080[m
+Author: Tomasz Pietraszek <tomekpietraszek@gmail.com>
+Date:   Mon Jun 5 14:40:28 2023 +0200
+
+    conflicts solved
+
+[33mcommit 491f0c1436d7cf26b237099d069efaa14f439652[m
+Author: Tomasz Pietraszek <tomekpietraszek@gmail.com>
+Date:   Mon Jun 5 14:39:03 2023 +0200
+
+    conflicts solved
+
+[33mcommit aae4c2518f7e3e000957203b2babbbc08f839a85[m
+Author: Tomasz Pietraszek <tomekpietraszek@gmail.com>
+Date:   Mon Jun 5 14:32:10 2023 +0200
+
+    Revert "background image added"
+    
+    This reverts commit e5f7f886ddf12dbe73c4f7fa39ca119f453005f0.
+
+[33mcommit ed0702f15f02f0468a25b95c679f069330e691a7[m
+Merge: 2fcc95f ba07a0d
+Author: Tomasz Pietraszek <tomekpietraszek@gmail.com>
+Date:   Mon Jun 5 14:26:55 2023 +0200
+
+    Merge branch 'main' of github.com:tomek-pietraszek/The-Solar-System into main
+
+[33mcommit 2fcc95fefbcb95f35afc578a29d961d611d583c3[m
+Author: Tomasz Pietraszek <tomekpietraszek@gmail.com>
+Date:   Mon Jun 5 14:26:39 2023 +0200
+
+    sass compiler added
+
+[33mcommit ba07a0d35517b818205dc2d4d536c897c589b2e4[m
+Merge: e5f7f88 67907a8
+Author: Tomasz Pietraszek <114232248+tomek-pietraszek@users.noreply.github.com>
+Date:   Mon Jun 5 11:50:19 2023 +0200
+
+    Merge pull request #6 from tomek-pietraszek/raz
+    
+    brackground image added
+
+[33mcommit 67907a890fe2e2cc5ce5019f800e60ce084e0d4a[m
+Merge: 2ddaef3 e5f7f88
+Author: Tomasz Pietraszek <114232248+tomek-pietraszek@users.noreply.github.com>
+Date:   Mon Jun 5 11:49:51 2023 +0200
+
+    Merge branch 'main' into raz
+
+[33mcommit 2ddaef3fac59c83238ca56004fc6d4aea469fa5e[m
+Author: Razvan Stan <rasvan.stan@yahoo.com>
+Date:   Mon Jun 5 11:43:57 2023 +0200
+
+    brackground image added
+
+[33mcommit e5f7f886ddf12dbe73c4f7fa39ca119f453005f0[m
+Author: Tomasz Pietraszek <tomekpietraszek@gmail.com>
+Date:   Mon Jun 5 11:38:18 2023 +0200
+
+    background image added
+
+[33mcommit 03deb512fcd8476c61daf11f86b0b60fb15ae46e[m
+Author: Tomasz Pietraszek <tomekpietraszek@gmail.com>
+Date:   Mon Jun 5 11:13:29 2023 +0200
+
+    navbar on landing page added
+
+[33mcommit b3c326bfc7ed7d082ec8be82abe75c530bf21173[m
+Merge: d29bf28 1196bdf
+Author: Tomasz Pietraszek <114232248+tomek-pietraszek@users.noreply.github.com>
+Date:   Mon Jun 5 09:52:35 2023 +0200
+
+    Merge pull request #5 from tomek-pietraszek/tomek
+    
+    new images added
+
+[33mcommit 1196bdf1fca513e946de4c589fe680a9385e76d1[m[33m ([m[1;31morigin/tomek[m[33m)[m
+Author: Tomasz Pietraszek <tomekpietraszek@gmail.com>
+Date:   Mon Jun 5 09:49:57 2023 +0200
+
+    new images added
+
+[33mcommit d29bf28e9bb719ac5a94e4c91661c6c0fb106be7[m
+Merge: a99040d ec3ba81
+Author: MeronGirmay <128052595+merongirmay@users.noreply.github.com>
+Date:   Thu Jun 1 15:52:34 2023 +0200
+
+    Merge pull request #4 from tomek-pietraszek/raz
+    
+    mockup added
+
+[33mcommit ec3ba811ecdf347bf3b70e0f0459559037e86a08[m
+Author: Razvan Stan <rasvan.stan@yahoo.com>
+Date:   Thu Jun 1 15:50:53 2023 +0200
+
+    mockup added
+
+[33mcommit a99040d971af1dcc4cc49eca1acf4cd816f35dac[m
+Merge: 8931b5a 6a790de
+Author: Tomasz Pietraszek <114232248+tomek-pietraszek@users.noreply.github.com>
+Date:   Thu Jun 1 14:29:19 2023 +0200
+
+    Merge pull request #3 from tomek-pietraszek/raz
+    
+    pictures from Raz added
+
+[33mcommit 6a790dec1805c03705d9e82e8f1207770d75a34d[m
+Author: Razvan Stan <rasvan.stan@yahoo.com>
+Date:   Thu Jun 1 14:25:47 2023 +0200
+
+    images finally added
+
+[33mcommit 8931b5a429914ab4182ce4f1f8c3a754bff6f33b[m
+Merge: b38ce7e 198fd52
+Author: Tomasz Pietraszek <114232248+tomek-pietraszek@users.noreply.github.com>
+Date:   Thu Jun 1 14:12:49 2023 +0200
+
+    Merge pull request #2 from tomek-pietraszek/blazej
+    
+    Blazej
+
+[33mcommit 198fd52f5690a74620e6e69e1f6358569338f3e1[m[33m ([m[1;31morigin/blazej[m[33m)[m
+Author: Blazej <blazej.gmiat@gmail.com>
+Date:   Thu Jun 1 14:07:35 2023 +0200
+
+    pic
+
+[33mcommit b38ce7e8059f74d0056015b1ae68081c142a3157[m
+Merge: 30d9720 3013656
+Author: Tomasz Pietraszek <114232248+tomek-pietraszek@users.noreply.github.com>
+Date:   Thu Jun 1 14:07:15 2023 +0200
+
+    Merge pull request #1 from tomek-pietraszek/tomek
+    
+    commit
+
+[33mcommit 30136564e51d28e384cad5a6f11dcc4b4acbfea4[m
+Author: Tomasz Pietraszek <tomekpietraszek@gmail.com>
+Date:   Thu Jun 1 14:04:36 2023 +0200
+
+    commit
+
+[33mcommit e50046d443badb23726a3b915361f94a73d686b8[m
+Author: Blazej <blazej.gmiat@gmail.com>
+Date:   Thu Jun 1 10:42:18 2023 +0200
+
+    d
+
+[33mcommit 2d27027058a5b956d586a4e9e9af4c7f80ad31fe[m
+Author: Razvan Stan <rasvan.stan@yahoo.com>
+Date:   Thu Jun 1 10:39:04 2023 +0200
+
+    initial commit
+
+[33mcommit 30d9720f7b60e616828eb6650c1606506396766f[m[33m ([m[1;31morigin/meron[m[33m)[m
+Author: Tomasz Pietraszek <tomekpietraszek@gmail.com>
+Date:   Thu Jun 1 10:29:40 2023 +0200
+
+    Readme file added
+
+[33mcommit bc9b614ec34e68d63f1ffd12b86898104e9b9b56[m
+Author: Tomasz Pietraszek <tomekpietraszek@gmail.com>
+Date:   Thu Jun 1 10:27:20 2023 +0200
+
+    Project Readme added
+
+[33mcommit 03aeb735f946c8430ebeada61abd58b8c4029ecf[m
+Author: Tomasz Pietraszek <tomekpietraszek@gmail.com>
+Date:   Thu Jun 1 10:17:51 2023 +0200
+
+    Initial commit

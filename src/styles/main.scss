@@ -4,9 +4,9 @@
 // to customize it as you may want.
 
 //importing the partial scss file: _variables.scss
-@use "variables";
-@use "base";
-@use"landingPage";
+@import "variables";
+
+
 
 
 //importing bootstrap
@@ -14,10 +14,12 @@
 
 // Write your sass code here or import partials
 
-body {
-    background: url(../../assets/images/background.png) no-repeat center;
-    background-size: cover;
-    
-   
-}
+
+@import "landingPage";
+
+
+
+
+
+
 
