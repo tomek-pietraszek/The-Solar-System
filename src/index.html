@@ -3,19 +3,24 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- -------  !important! ------- -->
+    <!-- in case of merging swap the stylesheet links!  -->
     <link rel="stylesheet" href="styles/main.scss" />
+    <!-- <link rel="stylesheet" href="styles/main.css" /> -->
+
     <title>The Solar System</title>
   </head>
   <body>
-    <header>
-      <nav class="navbar navbar-expand-lg bg-black navbar-dark ">
-        <div class="container-fluid text-primary">
-          <a href="#" class="navbar-brand fs-2 ">
-           
-            SpaceDevs
-          </a>
+    <header class="container-fluid fixed-top">
+      <nav class="navbar navbar-dark navbar-expand-md ">
+        <div class="container-fluid">
+          <a href="#" class="navbar-brand fs-4"> The Solar System</a>
           <button
-            class="navbar-toggler "
+            class="navbar-toggler"
             data-bs-toggle="collapse"
             data-bs-target="#nav"
             aria-controls="nav"
@@ -24,15 +29,19 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="nav">
-            <ul class="navbar-nav text-primary">
-              <li class="nav-item">
-                <a href="#" class="nav-link text-light ">Planets</a>
+            <ul class="navbar-nav ">
+              <li class="nav-item text-light">
+                <a href="/src/About-us.html" class="nav-link mx-0 mx-md-2 mx-xl-3 text-white">About Us</a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link text-light">About Us</a>
+                <a href="/src/interesting.html" class="nav-link  mx-0 mx-md-2 mx-xl-3 text-white"
+                  >Interesting Facts</a
+                >
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link text-light ">Interesting Facts</a>
+                <a href="/src/history.html" class="nav-link  mx-0 mx-md-2 mx-xl-3 text-white"
+                  >Space Travel History</a
+                >
               </li>
             </ul>
           </div>
@@ -40,23 +49,478 @@
       </nav>
     </header>
     <main>
-      <div class="scene">
-        
+
+      <p class="line-1 anim-typewriter">Welcome to the website about The Solar System</p>
+
+      <!-- back to top button -->
+
+      <a class="scroll d-xl-none" href="#"
+        ><i class="fa-solid fa-angle-up text-white"></i
+      ></a>
+
+      <!-- Explanation -->
+
+      <!-- Animation -->
+
+      <div class="wrapper">
+        <div class="sun mb-4 mb-sm-5 mb-xl-0">
+          <div class="star"></div>
+          <a class="text-decoration-none d-xl-none" href="#"
+            ><h1 class="text-white text-center display-4 fw-normal">Sun</h1></a
+          >
+        </div>
+
+        <div class="mercury mb-4 mb-sm-5 mb-xl-0">
+          <div class="planet mb-2">
+            <div class="shadow"></div>
+          </div>
+          <a class="text-decoration-none d-xl-none" href="/src/index.mercury.html"
+            ><h1 class="text-white text-center display-4 fw-normal">
+              Mercury
+            </h1></a
+          >
+        </div>
+
+        <div class="venus mb-4 mb-sm-5 mb-xl-0">
+          <div class="planet mb-3">
+            <div class="shadow"></div>
+          </div>
+          <a class="text-decoration-none d-xl-none" href="/src/index.venus.html"
+            ><h1 class="text-white text-center display-4 fw-normal">
+              Venus
+            </h1></a
+          >
+        </div>
+
+        <div class="earth mb-4 mb-sm-5 mb-xl-0">
+          <div class="planet mb-3">
+            <div class="shadow"></div>
+          </div>
+          <a class="text-decoration-none d-xl-none" href="/src/index.earth.html"
+            ><h1 class="text-white text-center display-4 fw-normal">
+              Earth
+            </h1></a
+          >
+        </div>
+
+        <div class="mars mb-4 mb-sm-5 mb-xl-0">
+          <div class="planet mb-3">
+            <div class="shadow"></div>
+          </div>
+          <a class="text-decoration-none d-xl-none" href="/src/index.mars.html"
+            ><h1 class="text-white text-center display-4 fw-normal">Mars</h1></a
+          >
+        </div>
+
+        <div class="jupiter mb-4 mb-sm-5 mb-xl-0">
+          <div class="planet mb-3">
+            <div class="shadow"></div>
+          </div>
+          <a class="text-decoration-none d-xl-none" href="/src/index.juiter.html"
+            ><h1 class="text-white text-center display-4 fw-normal">
+              Jupiter
+            </h1></a
+          >
+        </div>
+
+        <div class="saturn mb-4 mb-sm-5 mb-xl-0">
+          <div class="planet mb-1">
+            <div class="shadow"></div>
+          </div>
+          <a class="text-decoration-none d-xl-none" href="/src/index.saturn.html"
+            ><h1 class="text-white text-center display-4 fw-normal">
+              Saturn
+            </h1></a
+          >
+        </div>
+
+        <div class="uranus mb-4 mb-sm-5 mb-xl-0">
+          <div class="planet mb-3">
+            <div class="shadow"></div>
+          </div>
+          <a class="text-decoration-none d-xl-none" href="/src/index.uranus.html"
+            ><h1 class="text-white text-center display-4 fw-normal">
+              Uranus
+            </h1></a
+          >
+        </div>
+
+        <div class="neptune">
+          <div class="planet mb-3">
+            <div class="shadow"></div>
+          </div>
+          <a class="text-decoration-none d-xl-none" href="/src/index.neptune.html"
+            ><h1 class="text-white text-center display-4 fw-normal">
+              Neptune
+            </h1></a
+          >
+        </div>
+      </div>
+    </main>
+
+    <footer class="container-fluid mt-5">
+      <!-- social media icons -->
+      <div
+        class="container-fluid d-flex align-items-center justify-content-center text-white d-xl-none"
+      >
+        <a class="fs-3" href="#"
+          ><i class="fa-brands fa-instagram mx-1 mx-sm-3"></i
+        ></a>
+        <a class="fs-3" href="#"
+          ><i class="fa-brands fa-github mx-1 mx-sm-3"></i
+        ></a>
+        <a class="fs-3" href="#"
+          ><i class="fa-brands fa-linkedin mx-1 mx-sm-3"></i
+        ></a>
       </div>
 
-    </main>
-    
+      <!-- modal -->
+      <div
+        class="container-fluid d-none container-fluid d-xl-flex justify-content-center"
+      >
+        <a data-bs-toggle="modal" data-bs-target="#modalSun" href="#">Sun</a>
+        <div class="modal fade modal-xxl" id="modalSun">
+          <div class="modal-dialog modal-dialog-scrollable">
+            <div
+              class="modal-content bg-light bg-opacity-10 rounded-4 text-light"
+            >
+              <div class="modal-header">
+                <h1>The Sun</h1>
+                <button
+                  class="btn-close btn-close-white"
+                  data-bs-dismiss="modal"
+                  data-bs-target="modal"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <ul>
+                  <li>Equator circumference: 4,379,000 km.</li>
+                  <li>Radius: 695,700 km.</li>
+                  <li>Temperature: 5,973 to 15,000,000 °C.</li>
+                  <li>
+                    Average orbital speed around the Milky Way: 720,000km/h
+                    (200km/s).
+                  </li>
+                  <li>Star type: Yellow dwarf.</li>
+                  <li>Average time taken to rotate on axis: 27 Earth days.</li>
+                  <li>Number of planets: 8.</li>
+                </ul>
+              </div>
+              <div class="modal-footer">
+                <a class="btn btn-primary" href="#">Read more</a>
+              </div>
+            </div>
+          </div>
+        </div>
 
+        <a data-bs-toggle="modal" data-bs-target="#modalMercury" href="#"
+          >Mercury</a
+        >
+        <div class="modal fade modal-xxl" id="modalMercury">
+          <div class="modal-dialog modal-dialog-scrollable">
+            <div
+              class="modal-content bg-light bg-opacity-10 rounded-4 text-light"
+            >
+              <div class="modal-header">
+                <h1>Mercury</h1>
+                <button
+                  class="btn-close btn-close-white"
+                  data-bs-dismiss="modal"
+                  data-bs-target="modal"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <ul>
+                  <li>Equator circumference: 15,329 km.</li>
+                  <li>Equatorial Diameter: 4,879 km.</li>
+                  <li>Surface Temperature: -173 to 427 °C.</li>
+                  <li>Orbit Period: 87.97 Earth days.</li>
+                  <li>Orbit Distance: 57,909,227 km.</li>
+                  <li>
+                    Mass: 330,104,000,000,000 billion kg (0.055 x Earth) .
+                  </li>
+                </ul>
+              </div>
+              <div class="modal-footer">
+                <a class="btn btn-primary" href="/src/index.mercury.html">Read more</a>
+              </div>
+            </div>
+          </div>
+        </div>
 
+        <a data-bs-toggle="modal" data-bs-target="#modalVenus" href="#"
+          >Venus</a
+        >
+        <div class="modal fade modal-xxl" id="modalVenus">
+          <div class="modal-dialog modal-dialog-scrollable">
+            <div
+              class="modal-content bg-light bg-opacity-10 rounded-4 text-light"
+            >
+              <div class="modal-header">
+                <h1>Venus</h1>
+                <button
+                  class="btn-close btn-close-white"
+                  data-bs-dismiss="modal"
+                  data-bs-target="modal"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <ul>
+                  <li>Equator circumference: 38,025 km.</li>
+                  <li>Equatorial Diameter: 12,104 km.</li>
+                  <li>Surface Temperature: 462 °C.</li>
+                  <li>Orbit Period: 224.70 Earth days.</li>
+                  <li>Orbit Distance: 108,209,475 km.</li>
+                  <li>
+                    Mass: 4,867,320,000,000,000 billion kg (0.815 x Earth) .
+                  </li>
+                </ul>
+              </div>
+              <div class="modal-footer">
+                <a class="btn btn-primary" href="/src/index.venus.html">Read more</a>
+              </div>
+            </div>
+          </div>
+        </div>
 
+        <a data-bs-toggle="modal" data-bs-target="#modalEarth" href="#"
+          >Earth</a
+        >
+        <div class="modal fade modal-xxl" id="modalEarth">
+          <div class="modal-dialog modal-dialog-scrollable">
+            <div
+              class="modal-content bg-light bg-opacity-10 rounded-4 text-light"
+            >
+              <div class="modal-header">
+                <h1>Earth</h1>
+                <button
+                  class="btn-close btn-close-white"
+                  data-bs-dismiss="modal"
+                  data-bs-target="modal"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <ul>
+                  <li>Equator circumference: 40,030 km.</li>
+                  <li>Equatorial Diameter: 12,756 km.</li>
+                  <li>Surface Temperature: -88 to 58 °C.</li>
+                  <li>Orbit Period: 365.26 Earth days.</li>
+                  <li>Orbit Distance: 108,209,475 km.</li>
+                  <li>Mass: Mass: 5,972,190,000,000,000 billion kg .</li>
+                  <li>Notable Moons: The Moon.</li>
+                </ul>
+              </div>
+              <div class="modal-footer">
+                <a class="btn btn-primary" href="/src/index.earth.html">Read more</a>
+              </div>
+            </div>
+          </div>
+        </div>
 
+        <a data-bs-toggle="modal" data-bs-target="#modalMars" href="#">Mars</a>
+        <div class="modal fade modal-xxl" id="modalMars">
+          <div class="modal-dialog modal-dialog-scrollable">
+            <div
+              class="modal-content bg-light bg-opacity-10 rounded-4 text-light"
+            >
+              <div class="modal-header">
+                <h1>Mars</h1>
+                <button
+                  class="btn-close btn-close-white"
+                  data-bs-dismiss="modal"
+                  data-bs-target="modal"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <ul>
+                  <li>Equator circumference: 21,297 km.</li>
+                  <li>Equatorial Diameter: 6,805 km.</li>
+                  <li>Surface Temperature: -87 to -5 °C.</li>
+                  <li>Orbit Period: 686.98 Earth days (1.88 Earth years).</li>
+                  <li>Orbit Distance: 227,943,824 km.</li>
+                  <li>Mass: 641,693,000,000,000 billion kg (0.107 x Earth).</li>
+                  <li>Notable Moons: Phobos & Deimos.</li>
+                </ul>
+              </div>
+              <div class="modal-footer">
+                <a class="btn btn-primary" href="/src/index.mars.html">Read more</a>
+              </div>
+            </div>
+          </div>
+        </div>
 
+        <a data-bs-toggle="modal" data-bs-target="#modalJupiter" href="#"
+          >Jupiter</a
+        >
+        <div class="modal fade modal-xxl" id="modalJupiter">
+          <div class="modal-dialog modal-dialog-scrollable">
+            <div
+              class="modal-content bg-light bg-opacity-10 rounded-4 text-light"
+            >
+              <div class="modal-header">
+                <h1>Jupiter</h1>
+                <button
+                  class="btn-close btn-close-white"
+                  data-bs-dismiss="modal"
+                  data-bs-target="modal"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <ul>
+                  <li>Equator circumference: 439,264 km.</li>
+                  <li>Equatorial Diameter: 142,984 km.</li>
+                  <li>Surface Temperature: -108 °C.</li>
+                  <li>
+                    Orbit Period: 4,332.82 Earth days (11.86 Earth years).
+                  </li>
+                  <li>Orbit Distance: 778,340,821 km.</li>
+                  <li>
+                    Mass: 1,898,130,000,000,000,000 billion kg (317.83 x Earth).
+                  </li>
+                  <li>Notable Moons: Io, Europa, Ganymede, & Callisto.</li>
+                </ul>
+              </div>
+              <div class="modal-footer">
+                <a class="btn btn-primary" href="/src/index.juiter.html">Read more</a>
+              </div>
+            </div>
+          </div>
+        </div>
 
+        <a data-bs-toggle="modal" data-bs-target="#modalSaturn" href="#"
+          >Saturn</a
+        >
+        <div class="modal fade modal-xxl" id="modalSaturn">
+          <div class="modal-dialog modal-dialog-scrollable">
+            <div
+              class="modal-content bg-light bg-opacity-10 rounded-4 text-light"
+            >
+              <div class="modal-header">
+                <h1>Saturn</h1>
+                <button
+                  class="btn-close btn-close-white"
+                  data-bs-dismiss="modal"
+                  data-bs-target="modal"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <ul>
+                  <li>Equator circumference: 365,882 km.</li>
+                  <li>Equatorial Diameter: 120,536 km.</li>
+                  <li>Surface Temperature: -139 °C.</li>
+                  <li>10,755.70 Earth days (29.45 Earth years).</li>
+                  <li>Orbit Distance: 1,426,666,422 km .</li>
+                  <li>
+                    Mass: 568,319,000,000,000,000 billion kg (95.16 x Earth).
+                  </li>
+                  <li>Notable Moons: Titan, Rhea & Enceladus.</li>
+                  <li>Known Rings: 30+ (7 Groups).</li>
+                </ul>
+              </div>
+              <div class="modal-footer">
+                <a class="btn btn-primary" href="/src/index.saturn.html">Read more</a>
+              </div>
+            </div>
+          </div>
+        </div>
 
+        <a data-bs-toggle="modal" data-bs-target="#modalUranus" href="#"
+          >Uranus</a
+        >
+        <div class="modal fade modal-xxl" id="modalUranus">
+          <div class="modal-dialog modal-dialog-scrollable">
+            <div
+              class="modal-content bg-light bg-opacity-10 rounded-4 text-light"
+            >
+              <div class="modal-header">
+                <h1>Uranus</h1>
+                <button
+                  class="btn-close btn-close-white"
+                  data-bs-dismiss="modal"
+                  data-bs-target="modal"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <ul>
+                  <li>Equator circumference: 159,354 km.</li>
+                  <li>Equatorial Diameter: 51,118 km.</li>
+                  <li>Surface Temperature: -197 °C.</li>
+                  <li>
+                    Orbit Period: 30,687.15 Earth days (84.02 Earth years).
+                  </li>
+                  <li>Orbit Distance: 2,870,658,186 km.</li>
+                  <li>
+                    Mass: 86,810,300,000,000,000 billion kg (14.536 x Earth).
+                  </li>
+                  <li>
+                    Notable Moons: Oberon, Titania, Miranda, Ariel & Umbriel.
+                  </li>
+                </ul>
+              </div>
+              <div class="modal-footer">
+                <a class="btn btn-primary" href="/src/index.uranus.html">Read more</a>
+              </div>
+            </div>
+          </div>
+        </div>
 
+        <a data-bs-toggle="modal" data-bs-target="#modalNeptun" href="#"
+          >Neptun</a
+        >
+        <div class="modal fade modal-xxl" id="modalNeptun">
+          <div class="modal-dialog modal-dialog-scrollable">
+            <div
+              class="modal-content bg-light bg-opacity-10 rounded-4 text-light"
+            >
+              <div class="modal-header">
+                <h1>Neptun</h1>
+                <button
+                  class="btn-close btn-close-white"
+                  data-bs-dismiss="modal"
+                  data-bs-target="modal"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <ul>
+                  <li>Equator circumference: 155,600 km.</li>
+                  <li>Equatorial Diameter: 49,528 km.</li>
+                  <li>Surface Temperature: -201 °C.</li>
+                  <li>
+                    Orbit Period: 60,190.03 Earth days (164.79 Earth years).
+                  </li>
+                  <li>Orbit Distance: 4,498,396,441 km.</li>
+                  <li>
+                    Mass: 102,410,000,000,000,000 billion kg (17.15x Earth).
+                  </li>
+                  <li>Notable Moons: Triton.</li>
+                </ul>
+              </div>
+              <div class="modal-footer">
+                <a class="btn btn-primary" href="/src/index.neptune.html">Read more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
 
+    <!-- -------  !important! ------- -->
+    <!-- in case of merging swap the scripts!  -->
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+    <script type="module">
+  // Import all of Bootstrap's JS
+  import * as bootstrap from "bootstrap";
+</script>
+
+    <!-- <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+      integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+      crossorigin="anonymous"
+    ></script> -->
   </body>
 </html>
