@@ -15,6 +15,13 @@ body {
     background-attachment: fixed;
     
 }
+
+header {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.505);
+}
+
+
 .logo {
   width: 200px;
   position: absolute;
@@ -136,21 +143,26 @@ h1, h2 {
    border-radius: 5px;
  }
 
- footer{
-  display: flex;
+
+footer {
+    
+  
+  background-color: rgba(0, 0, 0, 0.505);
+ 
+  padding: 20px;
+
+}
+footer a {
+  color: rgb(228, 217, 217);
+  text-decoration: none;
+  font-size: 20px;
+  margin: 0 20px;
+ 
+}
 
 
-} 
-footer ul{
-  list-style: none;
-  
-}
-footer ul li{
-  display: inline;
-  padding: 10px;
-  font-size: 30px;
-  
-}
+
+
 .fa-brands{
   color: #fff;
   transform: scale(1.1);

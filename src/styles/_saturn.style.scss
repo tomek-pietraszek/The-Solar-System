@@ -21,6 +21,11 @@ body {
   
 }
 
+header {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.505);
+}
+
 main {
 
     color: white;
@@ -119,20 +124,20 @@ h1, h2 {
    border-radius: 5px;
  } */
 
- footer{
-  display: flex;
-
-
-} 
-footer ul{
-  list-style: none;
+ footer {
+    
   
+  background-color: rgba(0, 0, 0, 0.505);
+ 
+  padding: 20px;
+
 }
-footer ul li{
-  display: inline;
-  padding: 10px;
-  font-size: 30px;
-  
+footer a {
+  color: rgb(228, 217, 217);
+  text-decoration: none;
+  font-size: 20px;
+  margin: 0 20px;
+ 
 }
 .fa-brands{
   color: #fff;
