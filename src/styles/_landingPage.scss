@@ -1,42 +1,26 @@
-@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
-
 :root {
     --planetSize: 8px;
     --orbitSpeed: 8s;
 }
 
-
 html {
     scroll-behavior: smooth;
-  
 }
 
-
-
-
 body {
-  
     width: 100vw;
-    
     height: 100%;
-   //    indian version!
-    // top: 0px;
-    // bottom: 0px;
- background: url(/assets/images/background.png)top ;
- background-repeat: no-repeat;
- background-attachment: fixed;
- background-size: cover;
- display: flex;
- flex-direction: column;
- align-items: center;
+    background: url(/assets/images/background.png)top ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 // scroll to top button start
-
-
-
-  
-  .scroll {
+.scroll {
     position: fixed;
     top:75vh;
     right: 10px;
@@ -47,35 +31,11 @@ body {
     border: 1px solid white;
     padding: 20px 7.5px;
     border-radius: 20px;
-    
-  }
+}
   
- 
-  
-//   .scroll:hover {
-//     background-color: rgb(251, 251, 251);
-//   }
-  
-//   .hidden-btn {
-//     position: absolute;
-//     background-color: rgba(0, 0, 0, 0);
-//     color: transparent;
-//     cursor: inherit;
-// }
-
-
-
-//   end
-
-
-
-
 main {
     width: 100%;
 }
-
-
-
 
 header {
     width: 100%;
@@ -84,21 +44,15 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    // border: 1px solid red;
 }
 
 a:hover  {
     color: hsl(0, 2%, 50%);
 }
 
-
-
 .planet, .star {
     background-size: cover;
-   
 }
-
-
 
 .wrapper {
     margin-top: 200px;
@@ -111,16 +65,14 @@ a:hover  {
     0% {
         transform: rotate(0);
     }
+
     100% {
         transform: rotate(360deg);
-
     }
  }
-    
-    
 
-    
-.sun {
+ .sun {
+
     .star {
         width: calc(var(--planetSize) * 25);
         height: calc(var(--planetSize) * 25);
@@ -131,6 +83,7 @@ a:hover  {
 }
 
 .mercury {
+
     .planet {
         width: calc(var(--planetSize) *23);
         height: calc(var(--planetSize) *23);
@@ -141,6 +94,7 @@ a:hover  {
 }
 
 .venus {
+
     .planet {
         width: calc(var(--planetSize) * 23);
         height: calc(var(--planetSize) * 23);
@@ -151,6 +105,7 @@ a:hover  {
 }
 
 .earth {
+
     .planet {
         width: calc(var(--planetSize) * 24);
         height: calc(var(--planetSize) * 24);
@@ -161,6 +116,7 @@ a:hover  {
 }
 
 .mars {
+
     .planet {
         width: calc(var(--planetSize) * 24);
         height: calc(var(--planetSize) * 24);
@@ -171,6 +127,7 @@ a:hover  {
 }
 
 .jupiter {
+
     .planet {
         width: calc(var(--planetSize) * 24);
         height: calc(var(--planetSize) * 24);
@@ -182,18 +139,17 @@ a:hover  {
 
 .saturn {
    
-    
     .planet {
         position: relative;
         width: calc(var(--planetSize) * 48);
         height: calc(var(--planetSize) * 22);
         background: url(/assets/images/saturn.png) center;
         background-size: cover;
-        // animation: spin 300s infinite linear;
-     }
+    }
 }
 
 .uranus {
+
     .planet {
         width: calc(var(--planetSize) * 23);
         height: calc(var(--planetSize) * 23);
@@ -204,6 +160,7 @@ a:hover  {
 }
 
 .neptune {
+
     .planet {
         width: calc(var(--planetSize) * 27);
         height: calc(var(--planetSize) * 27);
@@ -216,21 +173,17 @@ a:hover  {
 
 
 footer {
-    
-    /* border: 1px solid red; */
     background-color: rgba(0, 0, 0, 0.505);
-   
     padding: 20px;
 
 }
+
 footer a {
     color: rgb(228, 217, 217);
     text-decoration: none;
     font-size: 20px;
     margin: 0 20px;
-   
 }
-
 
 .modal-content {
     background-color: rgba(255, 255, 255, 0.558);
@@ -241,104 +194,77 @@ footer a {
 }
 
 @media (min-width: 576px) {
-
     .scroll {
-        
         font-size: 30px;
         margin-right: 10px;
-        
-       
         border: 2px solid white;
-        
     }
 
-    
+    .sun {
+        .star {
+            width: calc(var(--planetSize) * 48);
+            height: calc(var(--planetSize) * 48);
+        }
+    }
 
+    .mercury {
+        .planet {
+            width: calc(var(--planetSize) * 45);
+            height: calc(var(--planetSize) * 45);
+        }
+    }
 
-        
-.sun {
-    .star {
-        width: calc(var(--planetSize) * 48);
-        height: calc(var(--planetSize) * 48);
-        
+    .venus {
+        .planet {
+            width: calc(var(--planetSize) * 40);
+            height: calc(var(--planetSize) * 40);
+        }
+    }
+
+    .earth {
+        .planet {
+            width: calc(var(--planetSize) * 42);
+            height: calc(var(--planetSize) * 42);
+        }
+    }
+
+    .mars {
+        .planet {
+            width: calc(var(--planetSize) * 43);
+            height: calc(var(--planetSize) * 43);
+        }
+    }
+
+    .jupiter {
+        .planet {
+            width: calc(var(--planetSize) *43);
+            height: calc(var(--planetSize) *43);
+        }
+    }
+
+    .saturn {
+        .planet {
+            width: calc(var(--planetSize) * 70);
+            height: calc(var(--planetSize) * 35);
+        }
+    }
+
+    .uranus {
+        .planet {
+            width: calc(var(--planetSize) * 40);
+            height: calc(var(--planetSize) * 40);
+        }
+    }
+
+    .neptune {
+        .planet {
+            width: calc(var(--planetSize) * 46);
+            height: calc(var(--planetSize) * 46);
+        }
     }
 }
 
-.mercury {
-    .planet {
-        width: calc(var(--planetSize) * 45);
-        height: calc(var(--planetSize) * 45);
-        
-     }
-}
-
-.venus {
-    .planet {
-        width: calc(var(--planetSize) * 40);
-        height: calc(var(--planetSize) * 40);
-       
-     }
-}
-
-.earth {
-    .planet {
-        width: calc(var(--planetSize) * 42);
-        height: calc(var(--planetSize) * 42);
-       
-     }
-}
-
-.mars {
-    .planet {
-        width: calc(var(--planetSize) * 43);
-        height: calc(var(--planetSize) * 43);
-       
-     }
-}
-
-.jupiter {
-    .planet {
-        width: calc(var(--planetSize) *43);
-        height: calc(var(--planetSize) *43);
-       
-     }
-}
-
-.saturn {
-    .planet {
-        width: calc(var(--planetSize) * 70);
-        height: calc(var(--planetSize) * 35);
-       
-     }
-}
-
-.uranus {
-    .planet {
-        width: calc(var(--planetSize) * 40);
-        height: calc(var(--planetSize) * 40);
-       
-     }
-}
-
-.neptune {
-    .planet {
-        width: calc(var(--planetSize) * 46);
-        height: calc(var(--planetSize) * 46);
-       
-     }
-}
-
-
-
-
-
-}
-
-
-
-  @media (min-width:1200px) {
-
-   
+@media (min-width:1200px) {
 
     // typewriter animation start
 
@@ -361,22 +287,22 @@ footer a {
         transform: translateY(-50%);   
         z-index: 99999; 
     }
-    
-    /* Animation */
+
     .anim-typewriter{
       animation: typewriter 10s steps(44) 1s 1 normal both,
                  blinkTextCursor 500ms steps(44) 22 both;
     }
+
     @keyframes typewriter{
       0%{width: 0;}
       80%{width: 26em;}
       99% {width: 26em;}
       100% {width: 0;}
     }
+
     @keyframes blinkTextCursor{
       from{border-right-color: rgba(255,255,255,.75);}
       to{border-right-color: rgba(255, 255, 255, 0);}
-      
     }
 // typewriter animation end
 
@@ -385,10 +311,8 @@ footer a {
     }
 
     main {
-        
         width: 100%;
         height: 100%;
-        
         padding: 70px 40px 0;
     }
 
@@ -396,28 +320,30 @@ footer a {
         0% {
             transform: rotate(0);
         }
+
         100% {
             transform: rotate(360deg);
-    
         }
     }
     
-   
-    
-    @keyframes mercuryOrbit {
+   @keyframes mercuryOrbit {
         0% {
             z-index: 2;
             transform: rotateY(0);
         }
+
         49% {
             z-index: 2;
         }
+
         50% {
             z-index: -2;
         }
+
         99% {
             z-index: -2;
         }
+
         100% {
             z-index: 2;
             transform: rotateY(360deg);
@@ -429,15 +355,19 @@ footer a {
             z-index: 3;
             transform: rotateY(0);
         }
+
         49% {
             z-index: 3;
         }
+
         50% {
             z-index: -3;
         }
+
         99% {
             z-index: -3;
         }
+
         100% {
             z-index: 3;
             transform: rotateY(360deg);
@@ -449,55 +379,43 @@ footer a {
             z-index: 4;
             transform: rotateY(0);
         }
+
         49% {
             z-index: 4;
         }
+
         50% {
             z-index: -4;
         }
+
         99% {
             z-index: -4;
         }
+
         100% {
             z-index: 4;
             transform: rotateY(360deg);
         }
     }
     
-    // @keyframes moonOrbit{
-    //     0% {
-    //         z-index: 5;
-    //         transform: rotateY(0);
-    //     }
-    //     49% {
-    //         z-index: 5;
-    //     }
-    //     50% {
-    //         z-index: -5;
-    //     }
-    //     99% {
-    //         z-index: -5;
-    //     }
-    //     100% {
-    //         z-index: 5;
-    //         transform: rotateY(360deg);
-    //     }
-    // }
-    
     @keyframes marsOrbit {
         0% {
             z-index: 5;
             transform: rotateY(0);
         }
+
         49% {
             z-index: 5;
         }
+
         50% {
             z-index: -5;
         }
+
         99% {
             z-index: -5;
         }
+
         100% {
             z-index: 5;
             transform: rotateY(360deg);
@@ -510,15 +428,19 @@ footer a {
             transform: rotateY(0);
             
         }
+
         49% {
             z-index: 6;
         }
+
         50% {
             z-index: -6;
         }
+
         99% {
             z-index: -6;
         }
+
         100% {
             z-index: 6;
             transform: rotateY(360deg);
@@ -531,15 +453,19 @@ footer a {
             z-index: 7;
             transform: rotateY(0);
         }
+
         49% {
             z-index: 7;
         }
+
         50% {
             z-index: -7;
         }
+
         99% {
             z-index: -7;
         }
+
         100% {
             z-index: 7;
             transform: rotateY(360deg);
@@ -551,15 +477,19 @@ footer a {
             z-index: 8;
             transform: rotateY(0);
         }
+
         49% {
             z-index: 8;
         }
+
         50% {
             z-index: -8;
         }
+
         99% {
             z-index: -8;
         }
+
         100% {
             z-index: 8;
             transform: rotateY(360deg);
@@ -571,15 +501,19 @@ footer a {
             z-index: 9;
             transform: rotateY(0);
         }
+
         49% {
             z-index: 9;
         }
+
         50% {
             z-index: -9;
         }
+
         99% {
             z-index: -9;
         }
+
         100% {
             z-index: 9;
             transform: rotateY(360deg);
@@ -588,13 +522,12 @@ footer a {
     
     @keyframes planetShadow {
         0% {
-            
             background-image: radial-gradient(
                 circle at top,
                 hsla(0, 0%, 1%, 0), hsla(0, 0%, 0%, 0.087));
                 background-image: cover;
         }
-    
+
         10% {
             background-image: radial-gradient(
                 circle at top,
@@ -710,7 +643,6 @@ footer a {
 
     @keyframes saturnShadow {
         0% {
-            
             background-image: radial-gradient(
                 circle at bottom,
                 hsla(0, 0%, 1%, 0), hsla(0, 0%, 0%, 0.359));
@@ -829,11 +761,6 @@ footer a {
                 background-image: cover;
             }
     }
-
-    
-    
-    
-    
     
     .wrapper {
         /* border: 1px solid red; */
@@ -844,26 +771,7 @@ footer a {
         perspective: 1000px;
         perspective-origin:60% 50%;
         transform: rotate(-10deg);
-    
-    
     }
-    
-    /* .earthWrapper {
-        border: 1px solid rgb(238, 240, 243);
-        position: relative;
-        margin: 0 auto;
-        display: block;
-        perspective: 900px;
-        perspective-origin: 60% 50%;
-        transform: rotate(-10deg);
-    }
-    
-    .earthWrapper > div {
-        position: relative;
-        margin: 0 auto;
-        transform-style: preserve-3d;
-       height: 0px;
-    } */
     
     .wrapper > div {
         position: relative;
@@ -887,11 +795,8 @@ footer a {
             border-radius: 50%;
             margin: 0 auto;
             animation: sunSpin 300s infinite linear;
-        
         }
     }
-    
-   
     
     .planet {
         background-size: cover;
@@ -901,30 +806,19 @@ footer a {
         background-color: transparent;
         animation-iteration-count: infinite;
         overflow: hidden;
+
+        .shadow {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        } 
     }
-
-
-
-
-    .shadow {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-       
-        
-    } 
-    
-  
-
-   
-         
     
     
     .mercury {
         position: absolute;
-        
         top: -7.5px;
         width: 300px;
         z-index: 2;
@@ -936,16 +830,13 @@ footer a {
             
             animation: mercuryOrbit calc(var(--orbitSpeed) * 1.2) infinite linear reverse; 
             background-image: url(/assets/images/mercury.png) ;
-        
-        }
 
-        .shadow {
-            animation: planetShadow calc(var(--orbitSpeed) * 1.2) infinite ;
+            .shadow {
+                animation: planetShadow calc(var(--orbitSpeed) * 1.2) infinite ;
+            }
         }
-        
     }
     
-
     .venus {
         position: absolute;
         width: 400px;
@@ -958,14 +849,12 @@ footer a {
             height: calc(var(--planetSize) * 3.72);
             background-image: url(/assets/images/venus.png);
             animation: venusOrbit calc(var(--orbitSpeed) * 1.5) infinite linear reverse;
-        }
 
-        .shadow {
-            animation: planetShadow calc(var(--orbitSpeed) * 1.5) infinite ;
+            .shadow {
+                animation: planetShadow calc(var(--orbitSpeed) * 1.5) infinite ;
+            }
         }
     }
-    
-  
     
     .earth {
         position: absolute;
@@ -979,17 +868,12 @@ footer a {
             height: calc(var(--planetSize) * 3.92);
             background-image: url(/assets/images/earth2.png);
             animation: earthOrbit calc(var(--orbitSpeed) * 2) infinite linear reverse;
-        }
 
-        .shadow {
-            animation: planetShadow calc(var(--orbitSpeed) * 2) infinite ;
+            .shadow {
+                animation: planetShadow calc(var(--orbitSpeed) * 2) infinite ;
+            }
         }
     }
-    
-    
-
-
-    
     
     .mars {
         position: absolute;
@@ -1003,15 +887,12 @@ footer a {
             height: calc(var(--planetSize) * 2.9);
             background-image: url(/assets/images/mars.png);
             animation: marsOrbit calc(var(--orbitSpeed) * 3) infinite linear reverse;
-        }
 
-        .shadow {
-            animation: planetShadow calc(var(--orbitSpeed) * 3) infinite ;
+            .shadow {
+                animation: planetShadow calc(var(--orbitSpeed) * 3) infinite ;
+            }
         }
-    
     }
-    
-
     
     .jupiter {
         position: absolute; 
@@ -1026,15 +907,12 @@ footer a {
             height: calc(var(--planetSize) * 12);
             background-image: url(/assets/images/jupiter1.png);
             animation: jupiterOrbit calc(var(--orbitSpeed) * 5) infinite linear reverse;
-            
-        }
 
-        .shadow {
-            animation: planetShadow calc(var(--orbitSpeed) * 5) infinite ;
+            .shadow {
+                animation: planetShadow calc(var(--orbitSpeed) * 5) infinite ;
+            }
         }
     }
-    
-   
     
     .saturn
     {
@@ -1049,26 +927,21 @@ footer a {
             height: calc(var(--planetSize) * 30);
             background-image: url(/assets/images/saturn.png);
             animation: saturnOrbit calc(var(--orbitSpeed) * 8) infinite linear reverse;
-            
-        }
 
-        .shadow {
-            height: 92px;
-            width: 94px;
-            border-radius: 50%;
-            position: absolute;
-            top: 30%;
-            left: 32%;
-            right: 0;
-            bottom: 0;
-            animation: saturnShadow calc(var(--orbitSpeed) * 8) infinite ;
-            // border: 1px solid red;
+            .shadow {
+                height: 92px;
+                width: 94px;
+                border-radius: 50%;
+                position: absolute;
+                top: 30%;
+                left: 32%;
+                right: 0;
+                bottom: 0;
+                animation: saturnShadow calc(var(--orbitSpeed) * 8) infinite ;
+                // border: 1px solid red;
+            }
         }
-
-     
     }
-    
-    
     
     .uranus {
         position: absolute;
@@ -1082,15 +955,12 @@ footer a {
             height: calc(var(--planetSize) * 4.68);
             background-image: url(/assets/images/uranus.png);
             animation: uranusOrbit calc(var(--orbitSpeed) * 10) infinite linear reverse;
-        }
 
-        .shadow {
-            animation: planetShadow calc(var(--orbitSpeed) * 10) infinite ;
+            .shadow {
+                animation: planetShadow calc(var(--orbitSpeed) * 10) infinite ;
+            }
         }
-    
     }
-    
-   
     
     .neptune {
         position: absolute;
@@ -1104,34 +974,20 @@ footer a {
             height: calc(var(--planetSize) * 4.9);
             background-image: url(/assets/images/neptune.png);
             animation: neptuneOrbit calc(var(--orbitSpeed) * 15) infinite linear reverse;
-        
-        }
 
-        .shadow {
-            animation: planetShadow calc(var(--orbitSpeed) * 15) infinite ;
+            .shadow {
+                animation: planetShadow calc(var(--orbitSpeed) * 15) infinite ;
+            }
         }
     }
     
-
     footer {
         position: fixed;
         bottom: 0;
         left: 0;
         right: 0;
     }
-    
-    
-    
-    
-    
-    
-    
-    
-   
-    
-    
-    
-    
+
     .modal {
         position: fixed;
         top: 62%;
@@ -1139,9 +995,7 @@ footer a {
         transform: translate(-50%, -50%);
         width: 400px;
         max-width: 100%;
-        
-      }
-
-  }
+    }
+}
 
 
