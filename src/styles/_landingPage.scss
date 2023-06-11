@@ -402,27 +402,7 @@ footer a {
         }
     }
     
-    @keyframes shadow {
-        0% {
-            background-position: 130% 0%;
-        }
-    
-        33% {
-            background-position: 50% 0%;
-        }
-    
-        55% {
-            background-position: 0% 0%;
-        }
-    
-        80% {
-            background-position: -50% 0%;
-        }
-    
-        100% {
-            background-position: -50% 0%;
-        }
-    }
+   
     
     @keyframes mercuryOrbit {
         0% {
@@ -484,25 +464,25 @@ footer a {
         }
     }
     
-    @keyframes moonOrbit{
-        0% {
-            z-index: 5;
-            transform: rotateY(0);
-        }
-        49% {
-            z-index: 5;
-        }
-        50% {
-            z-index: -5;
-        }
-        99% {
-            z-index: -5;
-        }
-        100% {
-            z-index: 5;
-            transform: rotateY(360deg);
-        }
-    }
+    // @keyframes moonOrbit{
+    //     0% {
+    //         z-index: 5;
+    //         transform: rotateY(0);
+    //     }
+    //     49% {
+    //         z-index: 5;
+    //     }
+    //     50% {
+    //         z-index: -5;
+    //     }
+    //     99% {
+    //         z-index: -5;
+    //     }
+    //     100% {
+    //         z-index: 5;
+    //         transform: rotateY(360deg);
+    //     }
+    // }
     
     @keyframes marsOrbit {
         0% {
@@ -528,6 +508,7 @@ footer a {
         0% {
             z-index: 6;
             transform: rotateY(0);
+            
         }
         49% {
             z-index: 6;
@@ -543,6 +524,7 @@ footer a {
             transform: rotateY(360deg);
         }
     }
+    
     
     @keyframes saturnOrbit {
         0% {
@@ -566,44 +548,288 @@ footer a {
     
     @keyframes uranusOrbit {
         0% {
-            z-index: 7;
+            z-index: 8;
             transform: rotateY(0);
         }
         49% {
-            z-index: 7;
+            z-index: 8;
         }
         50% {
-            z-index: -7;
+            z-index: -8;
         }
         99% {
-            z-index: -7;
+            z-index: -8;
         }
         100% {
-            z-index: 7;
+            z-index: 8;
             transform: rotateY(360deg);
         }
     }
     
     @keyframes neptuneOrbit {
         0% {
-            z-index: 8;
+            z-index: 9;
             transform: rotateY(0);
         }
         49% {
-            z-index: 8;
+            z-index: 9;
         }
         50% {
-            z-index: -8;
+            z-index: -9;
         }
         99% {
-            z-index: -8;
+            z-index: -9;
         }
         100% {
-            z-index: 8;
+            z-index: 9;
             transform: rotateY(360deg);
         }
     }
     
+    @keyframes planetShadow {
+        0% {
+            
+            background-image: radial-gradient(
+                circle at top,
+                hsla(0, 0%, 1%, 0), hsla(0, 0%, 0%, 0.087));
+                background-image: cover;
+        }
+    
+        10% {
+            background-image: radial-gradient(
+                circle at top,
+                hsla(0, 0%, 1%, 0), hsla(0, 0%, 0%, 0.075));
+                background-image: cover;
+        }
+    
+        15% {
+            background-image: radial-gradient(
+                circle at top,
+                hsla(0, 0%, 1%, 0), hsla(0, 0%, 0%, 0.194));
+                background-image: cover;
+        }
+    
+        20% {
+            background-image: radial-gradient(
+                circle at top,
+                hsla(0, 0%, 1%, 0), hsla(0, 0%, 0%, 0.294));
+                background-image: cover;
+        }
+    
+        25% {
+            background-image: radial-gradient(
+                circle at top,
+                hsla(0, 0%, 1%, 0), hsla(0, 0%, 0%, 0.419));
+                background-image: cover;
+        }
+      
+        30% {
+            background-image: radial-gradient(
+                circle at top,
+                hsla(0, 0%, 1%, 0), hsla(0, 0%, 0%, 0.518));
+                background-image: cover;
+        }
+    
+        35% {
+            background-image: radial-gradient(
+                circle at top,
+                hsla(0, 0%, 1%, 0), hsla(0, 0%, 0%, 0.603));
+                background-image: cover;
+        }
+    
+        40% {
+            background-image: radial-gradient(
+                circle at top,
+                hsla(0, 0%, 1%, 0.042), hsla(0, 0%, 0%, 0.704));
+                background-image: cover;
+        }
+    
+        45% {
+            background-image: radial-gradient(
+                circle at top,
+                hsla(0, 0%, 1%, 0.114), hsla(0, 0%, 0%, 0.845));
+                background-image: cover;
+        }
+    
+        50% {
+            background-image: radial-gradient(
+                circle at top,
+                hsla(0, 0%, 1%, 0.18), hsla(0, 0%, 0%, 0.928));
+                background-image: cover;
+        }
+    
+        55% {
+            background-image: radial-gradient(
+                circle at top,
+                hsla(0, 0%, 1%, 0.229), hsl(0, 0%, 0%));
+                background-image: cover;
+        }
+    
+        60% {
+            background-image: radial-gradient(
+                circle at top,
+                hsla(0, 0%, 1%, 0.204), hsl(0, 0%, 0%));
+                background-image: cover;
+        }
+    
+        65% {
+            background-image: radial-gradient(
+                circle at top,
+                hsla(0, 0%, 1%, 0.093), hsla(0, 0%, 0%, 0.658));
+                background-image: cover;
+        }
+    
+        70% {
+            background-image: radial-gradient(
+                circle at top,
+                hsla(0, 0%, 1%, 0.043), hsla(0, 0%, 0%, 0.431));
+                background-image: cover;
+        }
+    
+        75% {
+            background-image: radial-gradient(
+                circle at top,
+                hsla(0, 0%, 1%, 0), hsla(0, 0%, 0%, 0.259));
+                background-image: cover;
+        }
+    
+        80% {
+            background-image: radial-gradient(
+                circle at top,
+                hsla(0, 0%, 1%, 0), hsla(0, 0%, 0%, 0.098));
+                background-image: cover;
+        }
+    
+        81% {
+            background-image: radial-gradient(
+                circle at top,
+                hsla(0, 0%, 1%, 0), hsla(0, 0%, 0%, 0));
+                background-image: cover;
+            }
+    }
+
+    @keyframes saturnShadow {
+        0% {
+            
+            background-image: radial-gradient(
+                circle at bottom,
+                hsla(0, 0%, 1%, 0), hsla(0, 0%, 0%, 0.359));
+                background-image: cover;
+        }
+    
+        10% {
+            background-image: radial-gradient(
+                circle at bottom,
+                hsla(0, 0%, 1%, 0), hsla(0, 0%, 0%, 0.511));
+                background-image: cover;
+        }
+    
+        15% {
+            background-image: radial-gradient(
+                circle at bottom,
+                hsla(0, 0%, 1%, 0), hsla(0, 0%, 0%, 0.601));
+                background-image: cover;
+        }
+    
+        20% {
+            background-image: radial-gradient(
+                circle at bottom,
+                hsla(0, 0%, 1%, 0), hsla(0, 0%, 0%, 0.706));
+                background-image: cover;
+        }
+    
+        25% {
+            background-image: radial-gradient(
+                circle at bottom,
+                hsla(0, 0%, 1%, 0.019), hsla(0, 0%, 0%, 0.807));
+                background-image: cover;
+        }
+      
+        30% {
+            background-image: radial-gradient(
+                circle at bottom,
+                hsla(0, 0%, 1%, 0.023), hsla(0, 0%, 0%, 0.902));
+                background-image: cover;
+        }
+    
+        35% {
+            background-image: radial-gradient(
+                circle at bottom,
+                hsla(0, 0%, 1%, 0.037), hsla(0, 0%, 0%, 0.945));
+                background-image: cover;
+        }
+    
+        40% {
+            background-image: radial-gradient(
+                circle at bottom,
+                hsla(0, 0%, 1%, 0.042), hsl(0, 0%, 0%));
+                background-image: cover;
+        }
+    
+        45% {
+            background-image: radial-gradient(
+                circle at bottom,
+                hsla(0, 0%, 1%, 0.114), hsl(0, 0%, 0%));
+                background-image: cover;
+        }
+    
+        50% {
+            background-image: radial-gradient(
+                circle at bottom,
+                hsla(0, 0%, 1%, 0.18), hsl(0, 0%, 0%));
+                background-image: cover;
+        }
+    
+        55% {
+            background-image: radial-gradient(
+                circle at bottom,
+                hsla(0, 0%, 1%, 0.229), hsl(0, 0%, 0%));
+                background-image: cover;
+        }
+    
+        60% {
+            background-image: radial-gradient(
+                circle at bottom,
+                hsla(0, 0%, 1%, 0.204), hsl(0, 0%, 0%));
+                background-image: cover;
+        }
+    
+        65% {
+            background-image: radial-gradient(
+                circle at bottom,
+                hsla(0, 0%, 1%, 0.093), hsla(0, 0%, 0%, 0.658));
+                background-image: cover;
+        }
+    
+        70% {
+            background-image: radial-gradient(
+                circle at bottom,
+                hsla(0, 0%, 1%, 0.043), hsla(0, 0%, 0%, 0.431));
+                background-image: cover;
+        }
+    
+        75% {
+            background-image: radial-gradient(
+                circle at bottom,
+                hsla(0, 0%, 1%, 0.036), hsla(0, 0%, 0%, 0.259));
+                background-image: cover;
+        }
+    
+        80% {
+            background-image: radial-gradient(
+                circle at bottom,
+                hsla(0, 0%, 1%, 0.028), hsla(0, 0%, 0%, 0.098));
+                background-image: cover;
+        }
+    
+        81% {
+            background-image: radial-gradient(
+                circle at bottom,
+                hsla(0, 0%, 1%, 0), hsla(0, 0%, 0%, 0));
+                background-image: cover;
+            }
+    }
+
     
     
     
@@ -676,16 +902,24 @@ footer a {
         animation-iteration-count: infinite;
         overflow: hidden;
     }
-    
-    /* .shadow {
+
+
+
+
+    .shadow {
         position: absolute;
-        left: 0px;
-        right: 0px;
-        top: 0px;
-        bottom: 0px;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
        
-        border-radius: 100%;
-    } */
+        
+    } 
+    
+  
+
+   
+         
     
     
     .mercury {
@@ -704,6 +938,10 @@ footer a {
             background-image: url(/assets/images/mercury.png) ;
         
         }
+
+        .shadow {
+            animation: planetShadow calc(var(--orbitSpeed) * 1.2) infinite ;
+        }
         
     }
     
@@ -720,6 +958,10 @@ footer a {
             height: calc(var(--planetSize) * 3.72);
             background-image: url(/assets/images/venus.png);
             animation: venusOrbit calc(var(--orbitSpeed) * 1.5) infinite linear reverse;
+        }
+
+        .shadow {
+            animation: planetShadow calc(var(--orbitSpeed) * 1.5) infinite ;
         }
     }
     
@@ -738,26 +980,15 @@ footer a {
             background-image: url(/assets/images/earth2.png);
             animation: earthOrbit calc(var(--orbitSpeed) * 2) infinite linear reverse;
         }
+
+        .shadow {
+            animation: planetShadow calc(var(--orbitSpeed) * 2) infinite ;
+        }
     }
     
     
 
-    
-    /* .moon {
-        position: absolute;
-        width: 70px;
-        z-index: 5;
-        animation: moonOrbit calc(var(--orbitSpeed) * 0.5) infinite linear ;
-    }
-    
-    
-    .moon .planet {
-        width: calc(var(--planetSize) * 1,5);
-        height: calc(var(--planetSize) * 1,5);
-        background-image: url(/assets/images/moon.png);
-    
-        animation: animation: moonOrbit calc(var(--orbitSpeed) * 0.5) infinite linear reverse ;
-    } */
+
     
     
     .mars {
@@ -772,8 +1003,10 @@ footer a {
             height: calc(var(--planetSize) * 2.9);
             background-image: url(/assets/images/mars.png);
             animation: marsOrbit calc(var(--orbitSpeed) * 3) infinite linear reverse;
-        
-        
+        }
+
+        .shadow {
+            animation: planetShadow calc(var(--orbitSpeed) * 3) infinite ;
         }
     
     }
@@ -786,12 +1019,18 @@ footer a {
         z-index: 6;
         animation: jupiterOrbit calc(var(--orbitSpeed) * 5) infinite linear;
         top: -50px;
+        
 
         .planet {
             width: calc(var(--planetSize) * 12);
             height: calc(var(--planetSize) * 12);
             background-image: url(/assets/images/jupiter1.png);
             animation: jupiterOrbit calc(var(--orbitSpeed) * 5) infinite linear reverse;
+            
+        }
+
+        .shadow {
+            animation: planetShadow calc(var(--orbitSpeed) * 5) infinite ;
         }
     }
     
@@ -810,7 +1049,23 @@ footer a {
             height: calc(var(--planetSize) * 30);
             background-image: url(/assets/images/saturn.png);
             animation: saturnOrbit calc(var(--orbitSpeed) * 8) infinite linear reverse;
+            
         }
+
+        .shadow {
+            height: 92px;
+            width: 94px;
+            border-radius: 50%;
+            position: absolute;
+            top: 30%;
+            left: 32%;
+            right: 0;
+            bottom: 0;
+            animation: saturnShadow calc(var(--orbitSpeed) * 8) infinite ;
+            // border: 1px solid red;
+        }
+
+     
     }
     
     
@@ -827,6 +1082,10 @@ footer a {
             height: calc(var(--planetSize) * 4.68);
             background-image: url(/assets/images/uranus.png);
             animation: uranusOrbit calc(var(--orbitSpeed) * 10) infinite linear reverse;
+        }
+
+        .shadow {
+            animation: planetShadow calc(var(--orbitSpeed) * 10) infinite ;
         }
     
     }
@@ -846,6 +1105,10 @@ footer a {
             background-image: url(/assets/images/neptune.png);
             animation: neptuneOrbit calc(var(--orbitSpeed) * 15) infinite linear reverse;
         
+        }
+
+        .shadow {
+            animation: planetShadow calc(var(--orbitSpeed) * 15) infinite ;
         }
     }
     
