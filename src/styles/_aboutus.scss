@@ -1,4 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,600;1,900&display=swap');
+
+@import "variables";
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+
+
 
 *{
     margin: 0;
@@ -18,27 +24,7 @@ header{
    background-color: rgba(0, 0, 0, 0.505);
 
 }
-.navbar-collapse{
-    right: 0;
-}
-/* #logo{
- width: 100px;
- height: 100px;    
-} */
-nav{
-    display: flex;
 
-}
-nav ul{
-    list-style: none;
-    display: flex;
-    justify-content: flex-end;
-    margin :0 30px;
-}
-
-nav a{
-    text-decoration: none;
-}
 #logo{
     display: grid;
     place-items: center;
