@@ -76,7 +76,33 @@ main {
   }
 
 
-  @media screen and (max-width: 760px) {
+  @media screen and (max-width: 999px) {
+    main {
+      margin-top: 12rem;
+    }
+    table {
+      font-size: 1.2rem;
+    }
+
+    h1, h2 {
+      padding-bottom: 2rem;
+    }
+    .logo {
+      display: none;
+    }
+    .pics {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    }
+    .carousel {
+    margin-left: auto;
+    margin-right: auto;  
+    width: 90%;
+    }
+    body {
+      margin: 0 2rem;
+    }
 
 
   footer {
@@ -94,40 +120,11 @@ main {
     margin: 0 20px;
   }
 }
-  @media screen and (max-width: 1000px) {
-
-    main {
-      margin-top: 12rem;
-    }
-    table {
-      font-size: 1.2rem;
-    }
-
-    h1, h2 {
-      padding-bottom: 2rem;
-    }
-    .logo {
-      display: none;
-    }
-    .pics {
-    width: 90%;
-    height: 90%;
-    display: flex;
-    justify-content: center;
-    }
-    .carousel {
-    margin-left: auto;
-    margin-right: auto;  
-    width: 90%;
-    }
-    body {
-      margin: 0 2rem;
-    }
-  }
+ 
 
 
 
-  @media screen and (min-width: 760px) {
+  @media screen and (min-width: 1000px) {
     main {
       font-size: 1rem;
       padding-top: 4rem;
@@ -138,7 +135,7 @@ main {
         grid-template-rows: 1fr 1fr;
     }
     .pics {
-      max-width: 80%;   
+      width: 350px;   
     }
     .fourth {
       padding: 2.5rem;
@@ -192,16 +189,7 @@ footer a {
 }
 
 .fa-brands:hover{
-  scale: 1.2;
-  box-shadow: rgba(255, 253, 253, 0.4) 0px 30px 90px;
+  color: hsl(0, 2%, 50%);
 }
-.fa-instagram:hover{
-  color: #E4405F;
-}
-.fa-square-github:hover{
-  color: #c4c4c4;
-}
-.fa-linkedin:hover{
-  color: #0077B5;
-}
+
 
