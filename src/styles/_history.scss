@@ -22,7 +22,7 @@ main{
     text-align: justify;
 }
 
-p, .moonlanding{
+p{
     font-size: 18px;
     background-color: white;
     opacity: 0.8;
@@ -78,7 +78,7 @@ p, .moonlanding{
 }
 
 .isspics {
-    max-width:50vw;
+    width:50vw;
     // max-height:500px;
     border-radius: 30px;
     margin-top: 50px;
@@ -130,7 +130,7 @@ p {
     align-items: center;
   }
   .apollotext, .spaceshuttletext, .isstext {
-    padding-right:0px;
+    padding-right:0;
     padding-left: 0;
 }
 .isspics, .pics {
@@ -138,11 +138,11 @@ p {
     // height:390px;
 }
 .spacheshuttlepic{
-    width:80vw;
+    width:90vw;
 }
 p {
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 }
@@ -157,5 +157,9 @@ footer a {
     text-decoration: none;
     font-size: 20px;
     margin: 0 20px;
+}
+
+a:hover  {
+    color: hsl(0, 2%, 50%);
 }
 
