@@ -11,11 +11,6 @@ body{
 //     margin-bottom: 100px;
 // }
 
-img{
-    position: absolute;
-    top:-8%;
-    left:1%;
-}
 
 .flip-card1 {
     position: absolute;
@@ -334,6 +329,7 @@ p{
     .body{
         position: relative;
     }
+
     main{
       height:100vh;
       padding:40px;
@@ -456,6 +452,10 @@ p{
         .body{
             position: relative;
             // padding-top:30px;
+        }
+
+        main{
+          margin-top:100px;
         }
         .flip-card1{
             transform: rotate(0deg);
