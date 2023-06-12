@@ -21,6 +21,11 @@ body {
   
 }
 
+header {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.505);
+}
+
 main {
 
     color: white;
@@ -118,3 +123,37 @@ h1, h2 {
    color: white;
    border-radius: 5px;
  } */
+
+ footer {
+    
+  
+  background-color: rgba(0, 0, 0, 0.505);
+ 
+  padding: 20px;
+
+}
+footer a {
+  color: rgb(228, 217, 217);
+  text-decoration: none;
+  font-size: 20px;
+  margin: 0 20px;
+ 
+}
+.fa-brands{
+  color: #fff;
+  transform: scale(1.1);
+
+}
+.fa-brands:hover{
+  scale: 1.2;
+  box-shadow: rgba(255, 253, 253, 0.4) 0px 30px 90px;
+}
+.fa-instagram:hover{
+  color: #E4405F;
+}
+.fa-square-github:hover{
+  color: #c4c4c4;
+}
+.fa-linkedin:hover{
+  color: #0077B5;
+}

@@ -3,6 +3,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="/assets/favicon/saturn.ico">
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
@@ -17,15 +19,17 @@
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.css"
+    />
     <title>Saturn</title>
   </head>
   <body>
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container-fluid text-primary">
-          <a href="/src/index.html" class="navbar-brand fs-2">
-            <img class="logo" src="/assets/planets500/logo.png" />
-          </a>
+    <header class="container-fluid fixed-top">
+      <nav class="navbar navbar-dark navbar-expand-md">
+        <div class="container-fluid">
+          <a href="/src/index.html" class="navbar-brand fs-4 text-white"> The Solar System</a>
           <button
             class="navbar-toggler"
             data-bs-toggle="collapse"
@@ -36,22 +40,34 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="nav">
-            <ul class="navbar-nav text-primary">
-              <li class="nav-item">
-                <a href="#" class="nav-link text-light">Planets</a>
+            <ul class="navbar-nav">
+              <li class="nav-item text-light">
+                <a
+                  href="/src/About-us.html"
+                  class="nav-link mx-0 mx-md-2 mx-xl-3 text-white"
+                  >About Us</a
+                >
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link text-light">About Us</a>
+                <a
+                  href="/src/interesting.html"
+                  class="nav-link mx-0 mx-md-2 mx-xl-3 text-white"
+                  >Interesting Facts</a
+                >
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link text-light">Interesting Facts</a>
+                <a
+                  href="/src/history.html"
+                  class="nav-link mx-0 mx-md-2 mx-xl-3 text-white"
+                  >Space Travel History</a
+                >
               </li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
-    <!-- end of header  -->
+
     <main>
       <div
         id="carouselExampleIndicators"
@@ -183,6 +199,24 @@
         </p>
       </div>
     </main>
+    <footer class="d-flex justify-content-center">
+      <a
+      class="fs-3"
+      href="https://www.instagram.com/nasasolarsystem/"
+      target="_blank"
+      ><i class="fa-brands fa-instagram mx-1 mx-sm-3"></i
+    ></a>
+    <a
+      class="fs-3"
+      href="https://github.com/tomek-pietraszek/The-Solar-System"
+      target="_blank"
+      ><i class="fa-brands fa-github mx-1 mx-sm-3"></i
+    ></a>
+    <a class="fs-3" href="https://www.linkedin.com/school/dci-digital-career-institute/"
+    target="_blank"
+      ><i class="fa-brands fa-linkedin mx-1 mx-sm-3"></i
+    ></a>
+    </footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
