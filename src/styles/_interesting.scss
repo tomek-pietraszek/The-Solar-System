@@ -5,10 +5,12 @@ body{
     background-size: cover;
     box-sizing: border-box;
     position:relative;
+    height:85%;
 }
 header{
     margin-bottom: 100px;
 }
+
 
 img{
     position: absolute;
@@ -19,6 +21,7 @@ img{
 .flip-card1 {
     position: absolute;
     left:10%;
+    top:10%;
     background-color: white;
     width: 280px;
     height: 330px;
@@ -331,6 +334,9 @@ p{
         left:15%;
         height:380px;
     }
+    .flip-card:hover .flip-card-inner1 {
+        transform: rotateY(180deg);
+      }
     .flip-card2{
         transform: rotate(0deg);
         position: absolute;
@@ -344,6 +350,10 @@ p{
         height:180px;
 
     }
+
+    .flip-card2:hover .flip-card-inner2 {
+        transform: rotateY(180deg);
+      }
     .flip-card3{
         transform: rotate(0deg);
         position: absolute;
@@ -356,7 +366,9 @@ p{
         width:350px;
         height:370px;
     }
-    
+    .flip-card3:hover .flip-card-inner3 {
+        transform: rotateY(180deg);
+      }
     .flip-card4{
         transform: rotate(0deg);
         position: absolute;
@@ -370,6 +382,10 @@ p{
         width:320px;
         height:350px;
     }
+
+    .flip-card4:hover .flip-card-inner4 {
+        transform: rotateY(180deg);
+      }
     .flip-card5{
         transform: rotate(0deg);
         position: absolute;
@@ -382,6 +398,10 @@ p{
         width:320px;
         height:300px;
     }
+
+    .flip-card5:hover .flip-card-inner5 {
+        transform: rotateY(180deg);
+      }
     .flip-card6{
         transform: rotate(0deg);
         position: absolute;
@@ -394,7 +414,9 @@ p{
     .flip-card-back6{
         width:350px;
         height: 270px;
-
+    .flip-card6:hover .flip-card-inner6 {
+            transform: rotateY(180deg);
+          }
     }
     p{
         padding:20px;
@@ -427,6 +449,10 @@ p{
             height:300px;
 
         }
+
+        .flip-card1:hover .flip-card-inner {
+            transform: rotateY(180deg);
+          }
         .flip-card2{
             transform: rotate(0deg);
             position: absolute;
@@ -439,6 +465,9 @@ p{
             width:95vw;
             height:230px;
         }
+        .flip-card2:hover .flip-card-inner2 {
+            transform: rotateY(180deg);
+          }
         .flip-card3{
             transform: rotate(0deg);
             position: absolute;
@@ -449,6 +478,9 @@ p{
         .flip-card-back3{
             width:95vw;
         }
+        .flip-card3:hover .flip-card-inner3 {
+            transform: rotateY(180deg);
+          }
         
         .flip-card4{
             transform: rotate(0deg);
@@ -460,6 +492,10 @@ p{
         .flip-card-back4{
             width:95vw;
         }
+
+        .flip-card4:hover .flip-card-inner4 {
+            transform: rotateY(180deg);
+          }
         .flip-card5{
             transform: rotate(0deg);
             position: absolute;
@@ -470,7 +506,9 @@ p{
         .flip-card-back5{
             width:95vw;
         }
-        
+        .flip-card5:hover .flip-card-inner5 {
+            transform: rotateY(180deg);
+          }
         .flip-card6{
             transform: rotate(0deg);
             position: absolute;
@@ -484,6 +522,9 @@ p{
             width:95vw;
             height:200px;
         }
+        .flip-card6:hover .flip-card-inner6 {
+            transform: rotateY(180deg);
+          }
         p{
             padding:10px;
         }
@@ -530,4 +571,19 @@ p{
       opacity: 1;
     }
   } 
+
+
+footer {
+    /* border: 1px solid red; */
+    background-color: rgba(0, 0, 0, 0.505);
+    padding: 20px;
+    position:absolute;
+    bottom:-18%;
+}
+footer a {
+    color: rgb(228, 217, 217);
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 20px;
+}
 
