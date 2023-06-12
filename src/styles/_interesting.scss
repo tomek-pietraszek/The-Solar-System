@@ -457,9 +457,6 @@ p{
     p{
         padding:20px;
     }
-  footer{
-    position:static;
-  }
     }
 
 
@@ -469,9 +466,11 @@ p{
             // padding-top:30px;
         }
 
-        main{
+        main {
           margin-top:100px;
-        }
+
+        } 
+
         .flip-card1{
             transform: rotate(0deg);
             position: absolute;
@@ -502,6 +501,7 @@ p{
         .flip-card-back2{
             width:85vw;
             height:230px;
+
         }
         .flip-card2:hover .flip-card-inner2 {
             transform: rotateY(180deg);
@@ -509,7 +509,7 @@ p{
 
          
         .flip-card3{
-            transform: rotate(0deg);
+            transform: rotatbottome(0deg);
             position: absolute;
             top:90%;
             margin:auto;
@@ -522,7 +522,9 @@ p{
         .flip-card3:hover .flip-card-inner3 {
             transform: rotateY(180deg);
           }
-        
+        .flip-card3 p {
+          padding-top:40px;
+        }
         .flip-card4{
             transform: rotate(0deg);
             position: absolute;
@@ -563,14 +565,21 @@ p{
         }
         
         .flip-card-back6{
-            width:95vw;
+            width:85vw;
             height:200px;
         }
         .flip-card6:hover .flip-card-inner6 {
             transform: rotateY(180deg);
           }
+
         p{
-            padding:10px;
+            padding:40px;
+        }
+        .flip-card-back3 p{
+          padding-top:80px;
+        }
+        .flip-card-back6 p{
+          padding-top:20px;
         }
     }
 

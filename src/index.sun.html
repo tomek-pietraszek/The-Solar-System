@@ -4,6 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- favicon -->
+
     <link rel="icon" type="image/x-icon" href="/assets/favicon/sun.ico">
     <link
       rel="stylesheet"
@@ -12,19 +13,25 @@
       crossorigin="anonymous"
     />
 
-    <link rel="stylesheet" href="/src/styles/_planets-style.scss" />
- 
+    
+
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
+
+    <link rel="stylesheet" href="/src/styles/_planets-style.scss" />
     <title>Sun</title>
   </head>
   <body>
   <header class="container-fluid fixed-top">
       <nav class="navbar navbar-dark navbar-expand-md ">
         <div class="container-fluid">
+
+         
+
           <a href="/src/index.html" class="navbar-brand fs-4"> The Solar System</a>
+
           <button
             class="navbar-toggler"
             data-bs-toggle="collapse"
@@ -56,6 +63,7 @@
     </header>
     <!-- end of header  -->
     <main>
+
      
 
 
@@ -69,52 +77,68 @@
           <li
             data-target="#carouselExampleIndicators"
             data-slide-to="0"
+ 
             class="active"
-          ></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
         <div class="carousel-inner">
           <div class="carousel-item active custom-class">
             <img
-              class="d-block"
               src="/assets/planets500/sun1.png"
-              alt="First slide"
+              class="d-block pics"
+              alt="..."
             />
+            <div class="carousel-caption d-none d-md-block"></div>
           </div>
           <div class="carousel-item custom-class">
             <img
-              class="d-block"
               src="/assets/planets500/sun2.png"
-              alt="Second slide"
+              class="d-block pics"
+              alt="..."
             />
+            <div class="carousel-caption d-none d-md-block"></div>
           </div>
           <div class="carousel-item custom-class">
             <img
-              class="d-block mercury1"
               src="/assets/planets500/sun3.png"
-              alt="Third slide"
+              class="d-block pics"
+              alt="..."
             />
+            <div class="carousel-caption d-none d-md-block"></div>
           </div>
         </div>
-        <a
+        <button
           class="carousel-control-prev"
-          href="#carouselExampleIndicators"
-          role="button"
-          data-slide="prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
         >
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
           class="carousel-control-next"
-          href="#carouselExampleIndicators"
-          role="button"
-          data-slide="next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
         >
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
 
 
@@ -201,21 +225,23 @@
     </main>
     <footer class="d-flex justify-content-center">
       <a
-      class="fs-3"
-      href="https://www.instagram.com/nasasolarsystem/"
-      target="_blank"
-      ><i class="fa-brands fa-instagram mx-1 mx-sm-3"></i
-    ></a>
-    <a
-      class="fs-3"
-      href="https://github.com/tomek-pietraszek/The-Solar-System"
-      target="_blank"
-      ><i class="fa-brands fa-github mx-1 mx-sm-3"></i
-    ></a>
-    <a class="fs-3" href="https://www.linkedin.com/school/dci-digital-career-institute/"
-    target="_blank"
-      ><i class="fa-brands fa-linkedin mx-1 mx-sm-3"></i
-    ></a>
+        class="fs-3"
+        href="https://www.instagram.com/nasasolarsystem/"
+        target="_blank"
+        ><i class="fa-brands fa-instagram mx-1 mx-sm-3"></i
+      ></a>
+      <a
+        class="fs-3"
+        href="https://github.com/tomek-pietraszek/The-Solar-System"
+        target="_blank"
+        ><i class="fa-brands fa-github mx-1 mx-sm-3"></i
+      ></a>
+      <a
+        class="fs-3"
+        href="https://www.linkedin.com/school/dci-digital-career-institute/"
+        target="_blank"
+        ><i class="fa-brands fa-linkedin mx-1 mx-sm-3"></i
+      ></a>
     </footer>
 
     
@@ -225,6 +251,7 @@
       // Import all of Bootstrap's JS
       import * as bootstrap from "bootstrap";
   </script>
+
 
 
 
