@@ -39,8 +39,9 @@ main {
  
 }
 .text {
-    padding: 1rem 2.5rem;
+    padding: 1rem 2rem;
 }
+
 
 .carousel {
     display: flex;
@@ -74,22 +75,33 @@ main {
 
 
 
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 758px) {
     main {
-      margin-top: 4rem;
+      margin-top: 7rem;
+      width: 100%;
     }
     table {
       font-size: 1.2rem;
+  
+
     }
 
     h1, h2 {
       padding-bottom: 2rem;
        
     }
-  }
+    .carousel {
+      padding-left: 3rem;
+      padding-right: 3rem;
+    }
+
+  
+    }
+  
 
 
-  @media screen and (min-width: 1000px) {
+
+  @media screen and (min-width: 758px) {
     main {
       font-size: 1rem;
       padding-top: 4rem;
@@ -117,12 +129,14 @@ h1, h2 {
 }
 
 /* transparent background? */
-/* main div p {
+ main div p {
 
-   background-color: rgba(230, 229, 229, 0.2);
-   color: white;
+  background-color: #fff;
+  opacity: 80%;
+  color: #000;
    border-radius: 5px;
- } */
+   padding: 1rem;
+ } 
 
  footer {
     
@@ -130,6 +144,7 @@ h1, h2 {
   background-color: rgba(0, 0, 0, 0.505);
  
   padding: 20px;
+
 
 }
 footer a {
