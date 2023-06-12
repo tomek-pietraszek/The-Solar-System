@@ -36,25 +36,25 @@ header{
 
 }
 /* for the About-us.html page */
-.clearfix{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 15px 0;
-}
-.img-container-left, .img-container-right{
-    width: 20%;
-    padding: 60px 20px;
-    margin: 0 10px;
-    display: flex;
-}
-.clearfix img{
-    box-shadow: rgba(252, 252, 253, 0.2) 0px 7px 29px 0px;
-    box-shadow: rgb(81, 87, 94) 0px 20px 30px -10px;
-    box-shadow: rgba(255, 255, 255, 0.25) 0px 14px 28px, rgba(255, 255, 255, 0.22) 0px 10px 10px;
-    box-shadow: rgba(197, 197, 197, 0.4) 0px 30px 90px;
+// .clearfix{
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: center;
+//     margin: 15px 0;
+// }
+// .img-container-left, .img-container-right{
+//     width: 20%;
+//     padding: 60px 20px;
+//     margin: 0 10px;
+//     display: flex;
+// }
+// .clearfix img{
+//     box-shadow: rgba(252, 252, 253, 0.2) 0px 7px 29px 0px;
+//     box-shadow: rgb(81, 87, 94) 0px 20px 30px -10px;
+//     box-shadow: rgba(255, 255, 255, 0.25) 0px 14px 28px, rgba(255, 255, 255, 0.22) 0px 10px 10px;
+//     box-shadow: rgba(197, 197, 197, 0.4) 0px 30px 90px;
 
-}
+// }
 footer {
     background-color: rgba(0, 0, 0, 0.505);
     padding: 20px;
