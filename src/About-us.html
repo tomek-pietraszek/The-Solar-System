@@ -11,21 +11,10 @@
       crossorigin="anonymous"
     ></script>
     
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
+
     <link rel="stylesheet" href="/src/styles/_aboutus.scss" />
     <title>About Us</title>
   </head>
-  <style></style>
   <body>
     <header class="container-fluid fixed-top">
       <nav class="navbar navbar-dark navbar-expand-md">
@@ -69,6 +58,9 @@
       </nav>
     </header>
     <main>
+      <div id="logo">
+        <img src="../assets/images/logo.png" alt="">
+       </div>
       <div class="clearfix">
         <div class="img-container-right">
           <img
@@ -94,7 +86,7 @@
         </div>
       </div>
       <div class="clearfix">
-        <div class="p-container-right rounded">
+        <div class="p-container-right rounded col-xl-3">
           <p>
             Note that we also use the clearfix hack to take care of the layout
             flow, and that we add the box-sizing property to make sure that the
@@ -108,7 +100,7 @@
             consequatur consectetur quisquam quasi?
           </p>
         </div>
-        <div class="img-container-left">
+        <div class="img-container-left col-12">
           <img
             class="rounded"
             src="https://ca.slack-edge.com/T04TLUXTBTL-U04UESJM0G1-1d2f85a2c03f-512"
