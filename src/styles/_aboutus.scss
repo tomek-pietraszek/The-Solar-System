@@ -39,6 +39,10 @@ nav ul{
 nav a{
     text-decoration: none;
 }
+#logo{
+    display: grid;
+    place-items: center;
+}
 .container{
  display: flex;
  width: 80%;
