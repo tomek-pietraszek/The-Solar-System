@@ -3,45 +3,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="/assets/favicon/favicon.ico">
     <link rel="stylesheet" href="/src/styles/_history.scss">
     <title>Space travel history</title>
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+     
+      <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
 </head>
 <body>
-        <header>
-            <nav class="navbar navbar-expand-lg navbar-dark ">
-              <div class="container-fluid text-primary">
-                <a href="#" class="navbar-brand fs-2 ">
-                </a>
-                <button
-                  class="navbar-toggler "
-                  data-bs-toggle="collapse"
-                  data-bs-target="#nav"
-                  aria-controls="nav"
-                  aria-label="Expand Navigation"
+        <header class="container-fluid fixed-top">
+      <nav class="navbar navbar-dark navbar-expand-md ">
+        <div class="container-fluid">
+          <a href="/src/index.html" class="navbar-brand fs-4 text-white"> The Solar System</a>
+          <button
+            class="navbar-toggler"
+            data-bs-toggle="collapse"
+            data-bs-target="#nav"
+            aria-controls="nav"
+            aria-label="Expand Navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="nav">
+            <ul class="navbar-nav ">
+              <li class="nav-item text-light">
+                <a href="/src/About-us.html" class="nav-link mx-0 mx-md-2 mx-xl-3 text-white">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a href="/src/interesting.html" class="nav-link  mx-0 mx-md-2 mx-xl-3 text-white"
+                  >Interesting Facts</a
                 >
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="nav">
-                  <ul class="navbar-nav text-primary">
-                    <li class="nav-item">
-                      <a href="#" class="nav-link text-light ">Planets</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="#" class="nav-link text-light">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="#" class="nav-link text-light ">Interesting Facts</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </nav>
-          </header>
+              </li>
+              <li class="nav-item">
+                <a href="/src/history.html" class="nav-link  mx-0 mx-md-2 mx-xl-3 text-white"
+                  >Space Travel History</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
           <main>
             <!-- <img class="logo" src="..//assets/images/logo.png" alt="logo"> -->
             <div>
-            <h1>A brief history of space exploration</h1><br><br>
+            <h1>A brief history of space exploration</h1><br>
             <p>Humans have always lo</i>oked up into the night sky and dreamed about space.
 
                 In the latter half of the 20th century, rockets were developed that were powerful enough to overcome the force of gravity to reach orbital velocities, paving the way for space exploration to become a reality.
@@ -56,10 +65,9 @@
                 <h2>Landing on the moon</h2>
                 <div class="apollo">
                     <div class="apollotext">
-                        <p><br> “Landing a man on the Moon and returning him safely to Earth within a decade” was a national goal set by President John F. Kennedy in 1961. On July 20, 1969, astronaut Neil Armstrong took “one giant leap for mankind” as he stepped onto the Moon. Six Apollo missions were made to explore the Moon between 1969 and 1972. The American effort to send astronauts to the moon had its origins in an appeal President Kennedy made to a special joint session of Congress on May 25, 1961: "I believe this nation should commit itself to achieving the goal, before this decade is out, of landing a man on the moon and returning him safely to Earth." 
+                        <p> “Landing a man on the Moon and returning him safely to Earth within a decade” was a national goal set by President John F. Kennedy in 1961. On July 20, 1969, astronaut Neil Armstrong took “one giant leap for mankind” as he stepped onto the Moon. Six Apollo missions were made to explore the Moon between 1969 and 1972. The American effort to send astronauts to the moon had its origins in an appeal President Kennedy made to a special joint session of Congress on May 25, 1961: "I believe this nation should commit itself to achieving the goal, before this decade is out, of landing a man on the moon and returning him safely to Earth."</p>
 
-                        At the time, the United States was still trailing the Soviet Union in space developments, and Cold War-era America welcomed Kennedy's bold proposal. In 1966, after five years of work by an international team of scientists and engineers, the National Aeronautics and Space Administration (NASA) conducted the first unmanned Apollo mission, testing the structural integrity of the proposed launch vehicle and spacecraft combination. 
-                            <br>
+                        <p>At the time, the United States was still trailing the Soviet Union in space developments, and Cold War-era America welcomed Kennedy's bold proposal. In 1966, after five years of work by an international team of scientists and engineers, the National Aeronautics and Space Administration (NASA) conducted the first unmanned Apollo mission, testing the structural integrity of the proposed launch vehicle and spacecraft combination. 
                         Then, on January 27, 1967, tragedy struck at Kennedy Space Center in Cape Canaveral, Florida, when a fire broke out during a manned launch-pad test of the Apollo spacecraft and Saturn rocket. Three astronauts were killed in the fire.</p>
                     </div>
                     <div id="carouselExampleCaptions" class="carousel slide">
@@ -101,12 +109,12 @@
                         <br><img class="pics" src="..//assets/images/moonlanding.jpg" title="astronaut on the moon" alt="astronaut on the moon">
                     </div> -->
                 </div>
-                <div>
-                    <i><h3>How Many Times Did the US Land on the Moon?</h3>
-                    <p><br></i>
+                <div class="moonlanding">
+                    <i><h3>How Many Times Did the US Land on the Moon?</h3></i>
+                    <p>
                         There would be five more successful lunar landing missions, and one unplanned lunar swing-by. Apollo 13 had to abort its lunar landing due to technical difficulties. The last men to walk on the moon, astronauts Eugene Cernan (1934-2017) and Harrison Schmitt (1935-) of the Apollo 17 mission, left the lunar surface on December 14, 1972.
-                        The Apollo program was a costly and labor-intensive endeavor, involving an estimated 400,000 engineers, technicians and scientists, and costing $24 billion (close to $100 billion in today's dollars). The expense was justified by Kennedy's 1961 mandate to beat the Soviets to the moon, and after the feat was accomplished, ongoing missions lost their viability.</p>
-                </div><br>
+                        The Apollo program was a costly and labor-intensive endeavor, involving an estimated 400,000 engineers, technicians and scientists, and costing $24 billion (close to $100 billion in today's dollars). The expense was justified by Kennedy's 1961 mandate to beat the Soviets to the moon, and after the feat was accomplished, ongoing missions lost their viability.</p><br>
+                </div>
                 <h2>Space Shuttle</h2>
                 <div class="spaceshuttle">
                     <div>
@@ -115,13 +123,13 @@
                     <div class="spaceshuttletext">
                         <p>The Space Shuttle program was the fourth human spaceflight program carried out by the U.S. National Aeronautics and Space Administration (NASA), which accomplished routine transportation for Earth-to-orbit crew and cargo from 1981 to 2011. Its official name, Space Transportation System (STS), was taken from a 1969 plan for a system of reusable spacecraft of which it was the only item funded for development.[1] It flew 135 missions and carried 355 astronauts from 16 countries, many on multiple trips.
 
-                            The Space Shuttle—composed of an orbiter launched with two reusable solid rocket boosters and a disposable external fuel tank—carried up to eight astronauts and up to 50,000 lb (23,000 kg) of payload into low Earth orbit (LEO). When its mission was complete, the orbiter would reenter the Earth's atmosphere and land like a glider at either the Kennedy Space Center or Edwards Air Force Base.</p><br>
+                            The Space Shuttle—composed of an orbiter launched with two reusable solid rocket boosters and a disposable external fuel tank—carried up to eight astronauts and up to 50,000 lb (23,000 kg) of payload into low Earth orbit (LEO). When its mission was complete, the orbiter would reenter the Earth's atmosphere and land like a glider at either the Kennedy Space Center or Edwards Air Force Base.</p>
                             
-                            <p>The Shuttle is the only winged crewed spacecraft to have achieved orbit and landing, and the first reusable crewed space vehicle that made multiple flights into orbit.[a] Its missions involved carrying large payloads to various orbits including the International Space Station (ISS), providing crew rotation for the space station, and performing service missions on the Hubble Space Telescope. The orbiter also recovered satellites and other payloads (e.g., from the ISS) from orbit and returned them to Earth, though its use in this capacity was rare. Each vehicle was designed with a projected lifespan of 100 launches, or 10 years' operational life. Original selling points on the shuttles were over 150 launches over a 15-year operational span with a 'launch per month' expected at the peak of the program, but extensive delays in the development of the International Space Station[2] never created such a peak demand for frequent flights.
-                            Various shuttle concepts had been explored since the late 1960s. The program formally commenced in 1972, becoming the sole focus of NASA's human spaceflight operations after the Apollo, Skylab, and Apollo–Soyuz programs in 1975. The Shuttle was originally conceived of and presented to the public in 1972 as a 'Space Truck' which would, among other things, be used to build a United States space station in low Earth orbit during the 1980s and then be replaced by a new vehicle by the early 1990s. The stalled plans for a U.S. space station evolved into the International Space Station and were formally initiated in 1983 by President Ronald Reagan, but the ISS suffered from long delays, design changes and cost over-runs[2] and forced the service life of the Space Shuttle to be extended several times until 2011 when it was finally retired—serving twice as long as it was originally designed to do.</p><br>
+                            <p>The Shuttle is the only winged crewed spacecraft to have achieved orbit and landing, and the first reusable crewed space vehicle that made multiple flights into orbit.[a] Its missions involved carrying large payloads to various orbits including the International Space Station (ISS), providing crew rotation for the space station, and performing service missions on the Hubble Space Telescope. The orbiter also recovered satellites and other payloads (e.g., from the ISS) from orbit and returned them to Earth, though its use in this capacity was rare. Each vehicle was designed with a projected lifespan of 100 launches, or 10 years' operational life. Original selling points on the shuttles were over 150 launches over a 15-year operational span with a 'launch per month' expected at the peak of the program, but extensive delays in the development of the International Space Station[2] never created such a peak demand for frequent flights.</p>
+                            <p>Various shuttle concepts had been explored since the late 1960s. The program formally commenced in 1972, becoming the sole focus of NASA's human spaceflight operations after the Apollo, Skylab, and Apollo–Soyuz programs in 1975. The Shuttle was originally conceived of and presented to the public in 1972 as a 'Space Truck' which would, among other things, be used to build a United States space station in low Earth orbit during the 1980s and then be replaced by a new vehicle by the early 1990s. The stalled plans for a U.S. space station evolved into the International Space Station and were formally initiated in 1983 by President Ronald Reagan, but the ISS suffered from long delays, design changes and cost over-runs[2] and forced the service life of the Space Shuttle to be extended several times until 2011 when it was finally retired—serving twice as long as it was originally designed to do.</p><br>
                     </div>
-                </div><br>
-                    <h2>International Space Station</h2><br>
+                </div>
+                    <h2>International Space Station</h2>
                         <div class="iss">
                             <div class="isstext">
                                 <br><p>The International Space Station is a research laboratory in low Earth orbit. With many different partners contributing to its design and construction, this high-flying laboratory has become a symbol of cooperation in space exploration, with former competitors now working together.</p>
@@ -140,7 +148,7 @@
                                     </div>
                                     <div class="carousel-inner">
                                       <div class="carousel-item active">
-                                        <img src="..//assets/images/iss.jpg" class="d-block isspics" alt="...">
+                                        <img  src="..//assets/images/iss.jpg" class="d-block isspics" alt="...">
                                       </div>
                                       <div class="carousel-item">
                                         <img src="..//assets/images/iss1.jpg" class="d-block isspics" alt="...">
@@ -167,6 +175,32 @@
                         </div>
                 </div>
           </main>
-          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+          <footer class="container-fluid mt-5">
+            <!-- social media icons -->
+            <div
+              class="container-fluid d-flex align-items-center justify-content-center text-white "
+            >
+            <a
+            class="fs-3"
+            href="https://www.instagram.com/nasasolarsystem/"
+            target="_blank"
+            ><i class="fa-brands fa-instagram mx-1 mx-sm-3"></i
+          ></a>
+          <a
+            class="fs-3"
+            href="https://github.com/tomek-pietraszek/The-Solar-System"
+            target="_blank"
+            ><i class="fa-brands fa-github mx-1 mx-sm-3"></i
+          ></a>
+          <a class="fs-3" href="https://www.linkedin.com/school/dci-digital-career-institute/"
+          target="_blank"
+            ><i class="fa-brands fa-linkedin mx-1 mx-sm-3"></i
+          ></a>
+            </div>
+      </footer>
+      <script type="module">
+        // Import all of Bootstrap's JS
+        import * as bootstrap from "bootstrap";
+      </script>
     </body>
     </html>

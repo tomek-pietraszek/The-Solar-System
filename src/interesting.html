@@ -3,49 +3,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="/assets/favicon/favicon.ico" />
+    
     <link rel="stylesheet" href="/src/styles/_interesting.scss">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  />
+
     <title>Interesting facts</title>
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    
 </head>
 <body>
-        <header>
-            <nav class="navbar navbar-expand-lg navbar-dark ">
-              <div class="container-fluid text-primary">
-                <a href="#" class="navbar-brand fs-2 ">
-                </a>
-                <button
-                  class="navbar-toggler "
-                  data-bs-toggle="collapse"
-                  data-bs-target="#nav"
-                  aria-controls="nav"
-                  aria-label="Expand Navigation"
-                >
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="nav">
-                  <ul class="navbar-nav text-primary">
-                    <li class="nav-item">
-                      <a href="#" class="nav-link text-light ">Planets</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="#" class="nav-link text-light">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="#" class="nav-link text-light ">Interesting Facts</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </nav>
-          </header>
-          <div class="container">
+  <header class="container-fluid fixed-top">
+    <nav class="navbar navbar-dark navbar-expand-md ">
+      <div class="container-fluid">
+        <a href="/src/index.html" class="navbar-brand fs-4 text-white"> The Solar System</a>
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#nav"
+          aria-controls="nav"
+          aria-label="Expand Navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="nav">
+          <ul class="navbar-nav ">
+            <li class="nav-item text-light">
+              <a href="/src/About-us.html" class="nav-link mx-0 mx-md-2 mx-xl-3 text-white">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="/src/interesting.html" class="nav-link  mx-0 mx-md-2 mx-xl-3 text-white"
+                >Interesting Facts</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="/src/history.html" class="nav-link  mx-0 mx-md-2 mx-xl-3 text-white"
+                >Space Travel History</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+          <!-- <div class="container"> -->
           <div class="flip-card1">
             <div class="flip-card-inner">
               <div class="flipcard-front">
                 <br>
                 <h4>Did you know that the hotest planet in our solar system is 450 degrees Celsius?</h4><br>
-                <i><h5 class="tracking-in-expand">Hover the card</h5></i>
-
+                <i><h5 class="tracking-in-expand"><span class="hover">Hover the card</span><span class="click">Click the card</span></h5></i>
               </div>
               <div class="flip-card-back">
                 <p><br>Venus is the hottest planet in the solar system and has an average surface temperature of around 450° C. Did you know that Venus isn't the closest planet to the sun?  That is Mercury.  You would think that Mercury would then be the hottest, but Mercury has no atmosphere (which regulates temperature), resulting in big fluctuations. </p>
@@ -56,7 +67,7 @@
             <div class="flip-card-inner2">
               <div class="flipcard-front2">
                 <h4>Did you know that Uranus spins sideways?</h4>
-                <i><h5 class="tracking-in-expand">Hover the card</h5></i>
+                <i><h5 class="tracking-in-expand"><span class="hover">Hover the card</span><span class="click">Click the card</span></h5></i>
               </div>
               <div class="flip-card-back2">
                 <p>Uranus rotates on its side, appearing to roll around the sun like a ball,the most likely explanation for the planet's unusual orientation (about 90 degrees sideways compared to the other planets) is that it underwent some sort of titanic collision in the ancient past.</p>
@@ -68,20 +79,19 @@
               <div class="flipcard-front3">
                 <br><br>
                 <h4>Did you know that Jupiter has between 80-95 moons?</h4>
-                <i><h5 class="tracking-in-expand">Hover the card</h5></i>
-
+                <i><h5 class="tracking-in-expand"><span class="hover">Hover the card</span><span class="click">Click the card</span></h5></i>
               </div>
               <div class="flip-card-back3">
-                <p><br>By most counts, Jupiter has between 80 and 95 moons, but neither number captures the complexity of the Jovian system of moons, rings and asteroids.The biggest moon is Ganymede has a radius of 1,635 miles (2,631 kilometers) and is the largest moon in our solar system. It's bigger than Mercury and Pluto.</p>
+                <p>By most counts, Jupiter has between 80 and 95 moons, but neither number captures the complexity of the Jovian system of moons, rings and asteroids.The biggest moon is Ganymede has a radius of 1,635 miles (2,631 kilometers) and is the largest moon in our solar system. It's bigger than Mercury and Pluto.</p>
               </div>
             </div>
           </div>
           <div class="flip-card4">
             <div class="flip-card-inner4">
               <div class="flipcard-front4">
-                <br><br>
-                <h4>Did you know that there's more water in our solar system than you may think?</h4><br>
-                <i><h5 class="tracking-in-expand">Hover the card</h5></i>
+        
+                <h4><br><br>Did you know that there's more water in our solar system than you may think?</h4><br>
+                <i><h5 class="tracking-in-expand"><span class="hover">Hover the card</span><span class="click">Click the card</span></h5></i>
 
               </div>
               <div class="flip-card-back4">
@@ -95,7 +105,7 @@
                 <br>
                 <br>
                 <h4>Did you know that spacecraft have visited every planet?</h4>
-                <i><h5 class="tracking-in-expand">Hover the card </h5></i>
+                <i><h5 class="tracking-in-expand"><span class="hover">Hover the card</span><span class="click">Click the card</span></h5></i>
 
               </div>
               <div class="flip-card-back5">
@@ -108,7 +118,7 @@
               <div class="flipcard-front6">
                 <br>
                 <h4>Did you know that rings are more common than we thought?</h4>
-                <i><h5 class="tracking-in-expand">Hover the card</h5></i>
+                <i><h5 class="tracking-in-expand"><span class="hover">Hover the card</span><span class="click">Click the card</span></h5></i>
 
               </div>
               <div class="flip-card-back6">
@@ -118,7 +128,36 @@
             </div>
           </div>
         </div>
+      </main>
+        <footer class="container-fluid mt-5">
+          <!-- social media icons -->
+          <div
+            class="container-fluid d-flex align-items-center justify-content-center text-white"
+          >
+          <a
+          class="fs-3"
+          href="https://www.instagram.com/nasasolarsystem/"
+          target="_blank"
+          ><i class="fa-brands fa-instagram mx-1 mx-sm-3"></i
+        ></a>
+        <a
+          class="fs-3"
+          href="https://github.com/tomek-pietraszek/The-Solar-System"
+          target="_blank"
+          ><i class="fa-brands fa-github mx-1 mx-sm-3"></i
+        ></a>
+        <a class="fs-3" href="https://www.linkedin.com/school/dci-digital-career-institute/"
+        target="_blank"
+          ><i class="fa-brands fa-linkedin mx-1 mx-sm-3"></i
+        ></a>
+          </div>
+        </footer>
+        
+        <script type="module">
+          // Import all of Bootstrap's JS
+          import * as bootstrap from "bootstrap";
+        </script>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-</body>
+      </body>
+
 </html>
