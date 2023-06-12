@@ -25,24 +25,16 @@ header{
 
 
 
-footer {
-    
-    background-color: rgba(0, 0, 0, 0.505);
-    padding: 20px;
-}
-footer a {
-    color: rgb(228, 217, 217);
-    text-decoration: none;
-    font-size: 20px;
-    margin: 0 20px;
-}
-
 
 .container img{
- 
+    
     box-shadow: rgba(197, 197, 197, 0.4) 0px 30px 90px;
 }
+.container img:hover{
+    scale: 1.05;
+}
 .text-box p{
+    color: black;
 }
 .text-box{
     background-color: #fff;
@@ -54,6 +46,30 @@ footer a {
 img {
     border-radius: 25px;
 }
+footer {
+    
+    background-color: rgba(0, 0, 0, 0.505);
+    padding: 20px;
+}
+footer a {
+    color: rgb(228, 217, 217);
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 20px;
+}
+footer a:hover{
+    color: hsl(0, 2%, 50%);;
+}
+@media (max-width:390px) {
+    .container img {
+        width: 60vw;
+    }
+    .px-5 {
+        padding: 0;
+    }
+    
+}
+
 @media (max-width:768px) {
     .text-box{
         margin:20px 5px;
@@ -73,6 +89,6 @@ img {
 
 @media (max-width:991px) {
     .text-box p {
-        font-size: 12px;
+        font-size: 16px;
     }
 }
