@@ -13,19 +13,24 @@ body {
 
     background-size: cover;
     background-attachment: fixed;
+    
 }
+
+header {
+  position: fixed;
+  background-color: black;
+  width:100%;
+  z-index: 1;
+  opacity: 0.9;
+}
+
+
 .logo {
-  width: 190px;
+  width: 200px;
   position: absolute;
   top: -1.5rem;
   
 }
-
-header {
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.505);
-}
-
 main {
 
     color: white;
@@ -36,10 +41,8 @@ main {
     text-indent: 1rem;
     font-size: 1.1rem;
     
+    
  
-}
-.text {
-    padding: 1rem 2rem;
 }
 
 
@@ -47,7 +50,6 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-  
 }
 
 .table {
@@ -56,73 +58,83 @@ main {
   margin-top:1rem ;
 }
 
-.fourth {
-  padding: 2.5rem;
-  margin-top: 1.2rem;
-}
 
-.custom-class {
-    height: 400px;
-    width: 400px;
-    display: flex;
-    justify-content: center;
-}
+
+
+
 .carousel .carousel-inner .carousel-item  img{
 
-     height: 90%;
+     height: auto;
      margin: 0 auto;
+
 }
 
 
 
-  @media screen and (max-width: 758px) {
+
+  @media screen and (max-width: 760px) {
     main {
-      margin-top: 7rem;
-      width: 100%;
+      margin-top: 12rem;
     }
     table {
       font-size: 1.2rem;
-  
-
     }
 
     h1, h2 {
       padding-bottom: 2rem;
-       
     }
-    .carousel {
-      padding-left: 3rem;
-      padding-right: 3rem;
+    .logo {
+      display: none;
+    }
+    .pics {
+      width: 90%;
+      height: 90%;
+      display: flex;
+      justify-content: center;
+      }
+      .carousel {
+      margin-left: auto;
+      margin-right: auto;  
+      width: 90%;
+      }
+    body {
+      margin: 0 2rem;
     }
 
-  
-    }
-  
+    
+  }
 
 
 
-  @media screen and (min-width: 758px) {
+  @media screen and (min-width: 760px) {
     main {
       font-size: 1rem;
       padding-top: 4rem;
- 
         height: 100vh;
         width: 100vw;
         display: grid;
         grid-template-columns: 40% 60%;
+        grid-template-rows: 1fr 1fr;
     }
-    .navbar-collapse  {
-      position: fixed;
-      right: 0;
-      top: 0;
-      background-color: black;
-      z-index: 1;
-
-}
+    .pics {
+      max-width: 350px;
+    }
+    .fourth {
+      padding: 2.5rem;
+      margin-top: 1.2rem;
+      
+    }
+    .text {
+      padding: 1rem 2.5rem;
   }
 
+
+}
+
+
+
 h1, h2 {
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
   display: flex;
   justify-content: center;
  
@@ -131,20 +143,20 @@ h1, h2 {
 /* transparent background? */
  main div p {
 
-  background-color: #fff;
-  opacity: 80%;
-  color: #000;
-   border-radius: 5px;
+  //  background-color: rgba(230, 229, 229, 0.2);
+   background-color: #fff;
+   color: black;
+   border-radius: 10px;
    padding: 1rem;
- } 
+ }
 
- footer {
+
+footer {
     
   
   background-color: rgba(0, 0, 0, 0.505);
  
   padding: 20px;
-
 
 }
 footer a {
@@ -154,6 +166,10 @@ footer a {
   margin: 0 20px;
  
 }
+
+
+
+
 .fa-brands{
   color: #fff;
   transform: scale(1.1);

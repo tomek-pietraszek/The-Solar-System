@@ -6,21 +6,22 @@
 
 body {
 
-    background: 
-    
-    url(/assets/images/background.png);
-    
+  background: 
+  
+  url(/assets/images/background.png);
+  
 
-    background-size: cover;
-    background-attachment: fixed;
-    
+  background-size: cover;
+  background-attachment: fixed;
+  
 }
-
 header {
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.505);
+    position: fixed;
+    background-color: black;
+    width:100%;
+    z-index: 1;
+    opacity: 0.9;
 }
-
 
 .logo {
   width: 200px;
@@ -29,51 +30,35 @@ header {
   
 }
 main {
-
     color: white;
     display: flex;
     flex-direction: column;
     width: 100%;
     justify-content: center;
     text-indent: 1rem;
-    font-size: 1.1rem;
-    
-    
- 
+    font-size: 1.1rem; 
+    margin-bottom: 2rem
 }
-.text {
-    padding: 1rem 2.5rem;
-}
+
 
 .carousel {
     display: flex;
     justify-content: center;
     align-items: center;
-  
 }
 
 .table {
-
   padding: 0.5rem;
   margin-top:1rem ;
 }
 
-.fourth {
-  padding: 2.5rem;
-  margin-top: 1.2rem;
-  
-}
 
-.custom-class {
-    height: 400px;
-    width: 400px;
-    display: flex;
-    justify-content: center;
-}
+
+
+
 .carousel .carousel-inner .carousel-item  img{
-
-     height: 90%;
-     margin: 0 auto;
+  height: auto;
+  margin: 0 auto;
 }
 
 
@@ -90,9 +75,9 @@ main {
     }
   }
 
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 760px) {
     main {
-      margin-top: 15rem;
+      margin-top: 12rem;
     }
     table {
       font-size: 1.2rem;
@@ -104,10 +89,25 @@ main {
     .logo {
       display: none;
     }
+    .pics {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    }
+    .carousel {
+    margin-left: auto;
+    margin-right: auto;  
+    width: 90%;
+    }
+    body {
+      margin: 0 2rem;
+    }
   }
 
 
-  @media screen and (min-width: 1000px) {
+
+  @media screen and (min-width: 760px) {
     main {
       font-size: 1rem;
       padding-top: 4rem;
@@ -117,40 +117,43 @@ main {
         grid-template-columns: 40% 60%;
         grid-template-rows: 1fr 1fr;
     }
-    .navbar-collapse  {
-      position: fixed;
-      right: 0;
-      top: 0;
-      background-color: black;
-      z-index: 1;
- 
+    .pics {
+      max-width: 80%;   
     }
-
+    .fourth {
+      padding: 2.5rem;
+      margin-top: 1.2rem;
+      
+    }
+    .text {
+      padding: 1rem 2.5rem;
+  }
 }
 
 h1, h2 {
   padding-bottom: 1rem;
   display: flex;
   justify-content: center;
- 
-}
+ }
 
 /* transparent background? */
  main div p {
-
-   background-color: rgba(230, 229, 229, 0.2);
-   color: white;
-   border-radius: 5px;
+   border-radius: 10px;
    padding: 1rem;
+   background-color: #fff;
+      color: black;
  }
+
+//  footer
 
 
 footer {
     
   
   background-color: rgba(0, 0, 0, 0.505);
- 
+
   padding: 20px;
+
 
 }
 footer a {
