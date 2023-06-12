@@ -1,7 +1,13 @@
+@import "variables";
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+
+
 body{
     margin:0;
     padding:0;
-    background: url(..//assets/images/background.png) top;
+    background: url(/assets/images/background.png) top;
     background-size: cover;
     position: relative;
     overflow: hidden;
@@ -170,9 +176,9 @@ body{
     }
   }
 
-button {
-        width:210px;
-        height:80px;
+a {
+        // width:210px;
+        // height:80px;
         position:fixed;
         left:65%;
 }
