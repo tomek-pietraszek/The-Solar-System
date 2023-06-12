@@ -7,7 +7,7 @@
     <link rel="icon" type="image/x-icon" href="/assets/favicon/favicon.ico">
     <link rel="stylesheet" href="/src/styles/_history.scss">
     <title>Space travel history</title>
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+     
       <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -17,7 +17,7 @@
         <header class="container-fluid fixed-top">
       <nav class="navbar navbar-dark navbar-expand-md ">
         <div class="container-fluid">
-          <a href="#" class="navbar-brand fs-4 text-white"> The Solar System</a>
+          <a href="/src/index.html" class="navbar-brand fs-4 text-white"> The Solar System</a>
           <button
             class="navbar-toggler"
             data-bs-toggle="collapse"
@@ -30,10 +30,10 @@
           <div class="collapse navbar-collapse justify-content-end" id="nav">
             <ul class="navbar-nav ">
               <li class="nav-item text-light">
-                <a href="#" class="nav-link mx-0 mx-md-2 mx-xl-3 text-white">About Us</a>
+                <a href="/src/About-us.html" class="nav-link mx-0 mx-md-2 mx-xl-3 text-white">About Us</a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link  mx-0 mx-md-2 mx-xl-3 text-white"
+                <a href="/src/interesting.html" class="nav-link  mx-0 mx-md-2 mx-xl-3 text-white"
                   >Interesting Facts</a
                 >
               </li>
@@ -181,17 +181,27 @@
             <div
               class="container-fluid d-flex align-items-center justify-content-center text-white "
             >
-              <a class="fs-3" href="#"
-                ><i class="fa-brands fa-instagram mx-1 mx-sm-3"></i
-              ></a>
-              <a class="fs-3" href="#"
-                ><i class="fa-brands fa-github mx-1 mx-sm-3"></i
-              ></a>
-              <a class="fs-3" href="#"
-                ><i class="fa-brands fa-linkedin mx-1 mx-sm-3"></i
-              ></a>
+            <a
+            class="fs-3"
+            href="https://www.instagram.com/nasasolarsystem/"
+            target="_blank"
+            ><i class="fa-brands fa-instagram mx-1 mx-sm-3"></i
+          ></a>
+          <a
+            class="fs-3"
+            href="https://github.com/tomek-pietraszek/The-Solar-System"
+            target="_blank"
+            ><i class="fa-brands fa-github mx-1 mx-sm-3"></i
+          ></a>
+          <a class="fs-3" href="https://www.linkedin.com/school/dci-digital-career-institute/"
+          target="_blank"
+            ><i class="fa-brands fa-linkedin mx-1 mx-sm-3"></i
+          ></a>
             </div>
       </footer>
-          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+      <script type="module">
+        // Import all of Bootstrap's JS
+        import * as bootstrap from "bootstrap";
+      </script>
     </body>
     </html>
