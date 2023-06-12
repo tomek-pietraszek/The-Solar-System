@@ -1,4 +1,4 @@
-
+@import "variables";
 
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
@@ -75,7 +75,27 @@ main {
     }
   }
 
+
   @media screen and (max-width: 760px) {
+
+
+  footer {
+  
+  
+    background-color: rgba(0, 0, 0, 0.505);
+    padding: 20px;
+  
+  }
+  
+  footer a {
+    color: rgb(228, 217, 217);
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 20px;
+  }
+
+  @media screen and (max-width: 1000px) {
+
     main {
       margin-top: 12rem;
     }
@@ -147,8 +167,7 @@ h1, h2 {
 //  footer
 
 
-footer {
-    
+ footer {
   
   background-color: rgba(0, 0, 0, 0.505);
 
@@ -156,12 +175,12 @@ footer {
 
 
 }
+
 footer a {
   color: rgb(228, 217, 217);
   text-decoration: none;
   font-size: 20px;
   margin: 0 20px;
- 
 }
 
 
