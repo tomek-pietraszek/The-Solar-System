@@ -1,3 +1,5 @@
+
+// Variables for size and speed of the planets
 :root {
     --planetSize: 8px;
     --orbitSpeed: 8s;
@@ -19,7 +21,7 @@ body {
     align-items: center;
 }
 
-// scroll to top button start
+// Scroll to top button 
 .scroll {
     position: fixed;
     top:75vh;
@@ -46,13 +48,18 @@ header {
     right: 0;
 }
 
-a:hover  {
+.nav-link, h2{
+    color: white;
+}
+
+a:hover, .nav-link:hover, h2:hover{
     color: hsl(0, 2%, 50%);
 }
 
 .planet, .star {
     background-size: cover;
 }
+
 
 .wrapper {
     margin-top: 200px;
@@ -61,16 +68,13 @@ a:hover  {
  align-items: center;
  }
 
+//  Planet spin animation for mobile
  @keyframes spin {
-    0% {
-        transform: rotate(0);
-    }
+    0% {transform: rotate(0);}
+    100% {transform: rotate(360deg);}
+}
 
-    100% {
-        transform: rotate(360deg);
-    }
- }
-
+//  Planet sizes for mobile
  .sun {
 
     .star {
@@ -189,10 +193,14 @@ footer a {
     background-color: rgba(255, 255, 255, 0.558);
 }
 
+
+// !important in order to display modal properly
 .modal-backdrop {
     z-index: -1;
 }
 
+
+// tablet breakpoint
 @media (min-width: 576px) {
     .scroll {
         font-size: 30px;
@@ -264,6 +272,7 @@ footer a {
     }
 }
 
+// desktop breakpoint
 @media (min-width:1200px) {
 
     // typewriter animation start
@@ -289,20 +298,36 @@ footer a {
     }
 
     .anim-typewriter{
-      animation: typewriter 10s steps(44) 1s 1 normal both,
-                 blinkTextCursor 500ms steps(44) 22 both;
+      animation: typewriter 10s steps(46) 1s 1 normal both,
+                 blinkTextCursor 500ms steps(46) 22 both;
     }
 
     @keyframes typewriter{
-      0%{width: 0;}
-      80%{width: 26em;}
-      99% {width: 26em;}
-      100% {width: 0;}
+      0% {
+        width: 0;
+      }
+
+      80% {
+        width: 26em;
+      }
+
+      99% {
+        width: 26em;
+      }
+
+      100% {
+        width: 0;
+      }
     }
 
     @keyframes blinkTextCursor{
-      from{border-right-color: rgba(255,255,255,.75);}
-      to{border-right-color: rgba(255, 255, 255, 0);}
+      from {
+        border-right-color: rgba(255,255,255,.75);
+      }
+    
+      to {
+        border-right-color: rgba(255, 255, 255, 0);
+      }
     }
 // typewriter animation end
 
@@ -315,6 +340,8 @@ footer a {
         height: 100%;
         padding: 70px 40px 0;
     }
+
+    // Desktop animation start
 
     @keyframes sunSpin {
         0% {
@@ -761,9 +788,11 @@ footer a {
                 background-image: cover;
             }
     }
+
+
     
     .wrapper {
-        /* border: 1px solid red; */
+    // border: 1px solid red; 
         position: relative;
         margin: 0 auto;
         display: block;
@@ -777,7 +806,7 @@ footer a {
         position: relative;
         margin: 0 auto;
         transform-style: preserve-3d;
-       height: 0px;
+        height: 0px;
     }
     
     .sun {
@@ -980,6 +1009,8 @@ footer a {
             }
         }
     }
+
+    // desktop animation end
     
     footer {
         position: fixed;
@@ -988,6 +1019,7 @@ footer a {
         right: 0;
     }
 
+    // fixed position of modal
     .modal {
         position: fixed;
         top: 62%;

@@ -3,26 +3,30 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- anonymus-pro font from google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Love+Ya+Like+A+Sister&display=swap" rel="stylesheet">
-    <!-- favicon -->
-    <link rel="icon" type="image/x-icon" href="/assets/favicon/favicon.ico">
+    <!-- Anonymus-pro font from google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Love+Ya+Like+A+Sister&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/assets/favicon/favicon.ico" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
-    <!-- -------  !important! ------- -->
-    <!-- in case of merging swap the stylesheet links!  -->
+    <!-- -------  !Important! ------- -->
+    <!-- In case of merging swap the stylesheet links!  -->
     <link rel="stylesheet" href="styles/main.scss" />
     <!-- <link rel="stylesheet" href="styles/main.css" /> -->
 
     <title>The Solar System</title>
   </head>
   <body>
+    <!-- Header start -->
     <header class="container-fluid fixed-top">
-      <nav class="navbar navbar-dark navbar-expand-md ">
+      <nav class="navbar navbar-dark navbar-expand-md">
         <div class="container-fluid">
           <a href="#" class="navbar-brand fs-4"> The Solar System</a>
           <button
@@ -32,20 +36,30 @@
             aria-controls="nav"
             aria-label="Expand Navigation"
           >
+          <!-- Toggle button -->
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="nav">
-            <ul class="navbar-nav ">
+            <ul class="navbar-nav">
+              <!-- Nav-links -->
               <li class="nav-item text-light">
-                <a href="/src/About-us.html" class="nav-link mx-0 mx-md-2 mx-xl-3 text-white">About Us</a>
+                <a
+                  href="/src/About-us.html"
+                  class="nav-link mx-0 mx-md-2 mx-xl-3"
+                  >About Us</a
+                >
               </li>
               <li class="nav-item">
-                <a href="/src/interesting.html" class="nav-link  mx-0 mx-md-2 mx-xl-3 text-white"
+                <a
+                  href="/src/interesting.html"
+                  class="nav-link mx-0 mx-md-2 mx-xl-3"
                   >Interesting Facts</a
                 >
               </li>
               <li class="nav-item">
-                <a href="/src/history.html" class="nav-link  mx-0 mx-md-2 mx-xl-3 text-white"
+                <a
+                  href="/src/history.html"
+                  class="nav-link mx-0 mx-md-2 mx-xl-3"
                   >Space Travel History</a
                 >
               </li>
@@ -54,143 +68,179 @@
         </div>
       </nav>
     </header>
+    <!-- Header end -->
+
     <main>
+      <!-- Typewriter animation on desktop page -->
+      <p class="line-1 anim-typewriter">
+        Welcome to the website about The Solar System
+      </p>
 
-      <p class="line-1 anim-typewriter">Welcome to the website about The Solar System</p>
-
-      <!-- back to top button -->
-
+      <!-- Back to the top button for mobile and tablet version -->
       <a class="scroll d-xl-none" href="#"
         ><i class="fa-solid fa-angle-up text-white"></i
       ></a>
 
-      <!-- Explanation -->
+      <!-- Solar system start -->
 
-      <!-- Animation -->
-
+      <!-- Container -->
       <div class="wrapper">
+        <!-- Sun -->
         <div class="sun mb-4 mb-sm-5 mb-xl-0">
           <div class="star"></div>
+          <!-- link in mobile and tablet version -->
           <a class="text-decoration-none d-xl-none" href="/src/index.sun.html"
-            ><h1 class="text-white text-center display-4 fw-normal">Sun</h1></a
+            ><h2 class="text-center display-4 fw-normal">Sun</h2></a
           >
         </div>
 
+        <!-- Mercury -->
         <div class="mercury mb-4 mb-sm-5 mb-xl-0">
           <div class="planet mb-2">
             <div class="shadow"></div>
           </div>
-          <a class="text-decoration-none d-xl-none" href="/src/index.mercury.html"
-            ><h1 class="text-white text-center display-4 fw-normal">
+          <!-- link in mobile and tablet version -->
+          <a
+            class="text-decoration-none d-xl-none"
+            href="/src/index.mercury.html"
+            ><h2 class=" text-center display-4 fw-normal">
               Mercury
-            </h1></a
+            </h2></a
           >
         </div>
 
+        <!-- Venus -->
         <div class="venus mb-4 mb-sm-5 mb-xl-0">
           <div class="planet mb-3">
             <div class="shadow"></div>
           </div>
+          <!-- link in mobile and tablet version -->
           <a class="text-decoration-none d-xl-none" href="/src/index.venus.html"
-            ><h1 class="text-white text-center display-4 fw-normal">
+            ><h2 class=" text-center display-4 fw-normal">
               Venus
-            </h1></a
+            </h2></a
           >
         </div>
 
+        <!-- Earth -->
         <div class="earth mb-4 mb-sm-5 mb-xl-0">
           <div class="planet mb-3">
             <div class="shadow"></div>
           </div>
+          <!-- link in mobile and tablet version -->
           <a class="text-decoration-none d-xl-none" href="/src/index.earth.html"
-            ><h1 class="text-white text-center display-4 fw-normal">
+            ><h2 class=" text-center display-4 fw-normal">
               Earth
-            </h1></a
+            </h2></a
           >
         </div>
 
+        <!-- Mars -->
         <div class="mars mb-4 mb-sm-5 mb-xl-0">
           <div class="planet mb-3">
             <div class="shadow"></div>
           </div>
+          <!-- link in mobile and tablet version -->
           <a class="text-decoration-none d-xl-none" href="/src/index.mars.html"
-            ><h1 class="text-white text-center display-4 fw-normal">Mars</h1></a
+            ><h2 class=" text-center display-4 fw-normal">Mars</h2></a
           >
         </div>
 
+        <!-- Jupiter -->
         <div class="jupiter mb-4 mb-sm-5 mb-xl-0">
           <div class="planet mb-3">
             <div class="shadow"></div>
           </div>
-          <a class="text-decoration-none d-xl-none" href="/src/index.juiter.html"
-            ><h1 class="text-white text-center display-4 fw-normal">
+          <!-- link in mobile and tablet version -->
+          <a
+            class="text-decoration-none d-xl-none"
+            href="/src/index.juiter.html"
+            ><h2 class=" text-center display-4 fw-normal">
               Jupiter
-            </h1></a
+            </h2></a
           >
         </div>
 
+        <!-- Saturn -->
         <div class="saturn mb-4 mb-sm-5 mb-xl-0">
           <div class="planet mb-1">
             <div class="shadow"></div>
           </div>
-          <a class="text-decoration-none d-xl-none" href="/src/index.saturn.html"
-            ><h1 class="text-white text-center display-4 fw-normal">
+          <!-- link in mobile and tablet version -->
+          <a
+            class="text-decoration-none d-xl-none"
+            href="/src/index.saturn.html"
+            ><h2 class=" text-center display-4 fw-normal">
               Saturn
-            </h1></a
+            </h2></a
           >
         </div>
 
+        <!-- Uranus -->
         <div class="uranus mb-4 mb-sm-5 mb-xl-0">
           <div class="planet mb-3">
             <div class="shadow"></div>
           </div>
-          <a class="text-decoration-none d-xl-none" href="/src/index.uranus.html"
-            ><h1 class="text-white text-center display-4 fw-normal">
+          <!-- link in mobile and tablet version -->
+          <a
+            class="text-decoration-none d-xl-none"
+            href="/src/index.uranus.html"
+            ><h2 class=" text-center display-4 fw-normal">
               Uranus
-            </h1></a
+            </h2></a
           >
         </div>
 
+        <!-- Neptune -->
         <div class="neptune">
           <div class="planet mb-3">
             <div class="shadow"></div>
           </div>
-          <a class="text-decoration-none d-xl-none" href="/src/index.neptune.html"
-            ><h1 class="text-white text-center display-4 fw-normal">
+          <!-- link in mobile and tablet version -->
+          <a
+            class="text-decoration-none d-xl-none"
+            href="/src/index.neptune.html"
+            ><h2 class=" text-center display-4 fw-normal">
               Neptune
-            </h1></a
+            </h2></a
           >
         </div>
       </div>
     </main>
 
+    <!-- Footer start -->
     <footer class="container-fluid mt-5">
-      <!-- social media icons -->
+
+      <!-- Social media icons for tablet and mobile version -->
       <div
         class="container-fluid d-flex align-items-center justify-content-center text-white d-xl-none"
       >
-      <a
-      class="fs-3"
-      href="https://www.instagram.com/nasasolarsystem/"
-      target="_blank"
-      ><i class="fa-brands fa-instagram mx-1 mx-sm-3"></i
-    ></a>
-    <a
-      class="fs-3"
-      href="https://github.com/tomek-pietraszek/The-Solar-System"
-      target="_blank"
-      ><i class="fa-brands fa-github mx-1 mx-sm-3"></i
-    ></a>
-    <a class="fs-3" href="https://www.linkedin.com/school/dci-digital-career-institute/"
-    target="_blank"
-      ><i class="fa-brands fa-linkedin mx-1 mx-sm-3"></i
-    ></a>
+        <a
+          class="fs-3"
+          href="https://www.instagram.com/nasasolarsystem/"
+          target="_blank"
+          ><i class="fa-brands fa-instagram mx-1 mx-sm-3"></i
+        ></a>
+        <a
+          class="fs-3"
+          href="https://github.com/tomek-pietraszek/The-Solar-System"
+          target="_blank"
+          ><i class="fa-brands fa-github mx-1 mx-sm-3"></i
+        ></a>
+        <a
+          class="fs-3"
+          href="https://www.linkedin.com/school/dci-digital-career-institute/"
+          target="_blank"
+          ><i class="fa-brands fa-linkedin mx-1 mx-sm-3"></i
+        ></a>
       </div>
 
-      <!-- modal -->
+      <!-- Modal section  for desktop version with short planet description -->
       <div
         class="container-fluid d-none container-fluid d-xl-flex justify-content-center"
       >
+
+      <!-- Modal sun -->
         <a data-bs-toggle="modal" data-bs-target="#modalSun" href="#">Sun</a>
         <div class="modal fade modal-xxl" id="modalSun">
           <div class="modal-dialog modal-dialog-scrollable">
@@ -220,12 +270,15 @@
                 </ul>
               </div>
               <div class="modal-footer">
-                <a class="btn btn-primary" href="/src/index.sun.html">Read more</a>
+                <a class="btn btn-primary" href="/src/index.sun.html"
+                  >Read more</a
+                >
               </div>
             </div>
           </div>
         </div>
 
+        <!-- Modal Mercury -->
         <a data-bs-toggle="modal" data-bs-target="#modalMercury" href="#"
           >Mercury</a
         >
@@ -255,12 +308,15 @@
                 </ul>
               </div>
               <div class="modal-footer">
-                <a class="btn btn-primary" href="/src/index.mercury.html">Read more</a>
+                <a class="btn btn-primary" href="/src/index.mercury.html"
+                  >Read more</a
+                >
               </div>
             </div>
           </div>
         </div>
 
+        <!-- Modal Venus -->
         <a data-bs-toggle="modal" data-bs-target="#modalVenus" href="#"
           >Venus</a
         >
@@ -290,12 +346,15 @@
                 </ul>
               </div>
               <div class="modal-footer">
-                <a class="btn btn-primary" href="/src/index.venus.html">Read more</a>
+                <a class="btn btn-primary" href="/src/index.venus.html"
+                  >Read more</a
+                >
               </div>
             </div>
           </div>
         </div>
 
+        <!-- Modal Earth -->
         <a data-bs-toggle="modal" data-bs-target="#modalEarth" href="#"
           >Earth</a
         >
@@ -324,12 +383,15 @@
                 </ul>
               </div>
               <div class="modal-footer">
-                <a class="btn btn-primary" href="/src/index.earth.html">Read more</a>
+                <a class="btn btn-primary" href="/src/index.earth.html"
+                  >Read more</a
+                >
               </div>
             </div>
           </div>
         </div>
 
+        <!-- Modal Mars -->
         <a data-bs-toggle="modal" data-bs-target="#modalMars" href="#">Mars</a>
         <div class="modal fade modal-xxl" id="modalMars">
           <div class="modal-dialog modal-dialog-scrollable">
@@ -356,12 +418,15 @@
                 </ul>
               </div>
               <div class="modal-footer">
-                <a class="btn btn-primary" href="/src/index.mars.html">Read more</a>
+                <a class="btn btn-primary" href="/src/index.mars.html"
+                  >Read more</a
+                >
               </div>
             </div>
           </div>
         </div>
 
+        <!-- Modal Jupiter -->
         <a data-bs-toggle="modal" data-bs-target="#modalJupiter" href="#"
           >Jupiter</a
         >
@@ -394,12 +459,15 @@
                 </ul>
               </div>
               <div class="modal-footer">
-                <a class="btn btn-primary" href="/src/index.juiter.html">Read more</a>
+                <a class="btn btn-primary" href="/src/index.juiter.html"
+                  >Read more</a
+                >
               </div>
             </div>
           </div>
         </div>
 
+        <!-- Modal Saturn -->
         <a data-bs-toggle="modal" data-bs-target="#modalSaturn" href="#"
           >Saturn</a
         >
@@ -431,12 +499,15 @@
                 </ul>
               </div>
               <div class="modal-footer">
-                <a class="btn btn-primary" href="/src/index.saturn.html">Read more</a>
+                <a class="btn btn-primary" href="/src/index.saturn.html"
+                  >Read more</a
+                >
               </div>
             </div>
           </div>
         </div>
 
+        <!-- Modal Uranus -->
         <a data-bs-toggle="modal" data-bs-target="#modalUranus" href="#"
           >Uranus</a
         >
@@ -471,12 +542,15 @@
                 </ul>
               </div>
               <div class="modal-footer">
-                <a class="btn btn-primary" href="/src/index.uranus.html">Read more</a>
+                <a class="btn btn-primary" href="/src/index.uranus.html"
+                  >Read more</a
+                >
               </div>
             </div>
           </div>
         </div>
 
+        <!-- Modal Neptune -->
         <a data-bs-toggle="modal" data-bs-target="#modalNeptun" href="#"
           >Neptune</a
         >
@@ -509,21 +583,24 @@
                 </ul>
               </div>
               <div class="modal-footer">
-                <a class="btn btn-primary" href="/src/index.neptune.html">Read more</a>
+                <a class="btn btn-primary" href="/src/index.neptune.html"
+                  >Read more</a
+                >
               </div>
             </div>
           </div>
         </div>
       </div>
+      <!-- Footer end -->
     </footer>
 
-    <!-- -------  !important! ------- -->
+    <!-- -------  !Important! ------- -->
     <!-- in case of merging swap the scripts!  -->
 
     <script type="module">
-  // Import all of Bootstrap's JS
-  import * as bootstrap from "bootstrap";
-</script>
+      // Import all of Bootstrap's JS
+      import * as bootstrap from "bootstrap";
+    </script>
 
     <!-- <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
