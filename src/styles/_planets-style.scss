@@ -23,6 +23,14 @@ header {
     opacity: 0.9;
 }
 
+.nav-link {
+  color: white;
+}
+
+a:hover, .nav-link:hover {
+  color: hsl(0, 2%, 50%);
+}
+
 .logo {
   width: 200px;
   position: absolute;

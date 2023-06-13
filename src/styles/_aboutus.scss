@@ -23,7 +23,12 @@ header{
 }
 
 
-
+.nav-link{
+    color: white;
+}
+a:hover, .nav-link:hover{
+    color: hsl(0, 2%, 50%);
+}
 
 
 .container img{
