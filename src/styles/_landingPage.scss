@@ -10,9 +10,9 @@ html {
 }
 
 body {
-    width: 100vw;
-    height: 100%;
-    background: url(/assets/images/background.png)top ;
+    // width: 100vw;
+    height: 100vh;
+    background: url(/assets/images/webp.img/background.webp)top ;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -80,7 +80,7 @@ a:hover, .nav-link:hover, h2:hover{
     .star {
         width: calc(var(--planetSize) * 25);
         height: calc(var(--planetSize) * 25);
-        background: url(/assets/images/sun.png) no-repeat;
+        background: url(/assets/images/webp.img/sun.webp) no-repeat;
         background-size: cover;
         animation: spin 300s infinite linear;
     }
@@ -91,7 +91,7 @@ a:hover, .nav-link:hover, h2:hover{
     .planet {
         width: calc(var(--planetSize) *23);
         height: calc(var(--planetSize) *23);
-        background: url(/assets/images/mercury.png);
+        background: url(/assets/images/webp.img/mercury.webp);
         background-size: cover;
         animation: spin 300s infinite linear reverse;
      }
@@ -102,7 +102,7 @@ a:hover, .nav-link:hover, h2:hover{
     .planet {
         width: calc(var(--planetSize) * 23);
         height: calc(var(--planetSize) * 23);
-        background: url(/assets/images/venus.png);
+        background: url(/assets/images/webp.img/venus.webp);
         background-size: cover;
         animation: spin 300s infinite linear;
      }
@@ -113,7 +113,7 @@ a:hover, .nav-link:hover, h2:hover{
     .planet {
         width: calc(var(--planetSize) * 24);
         height: calc(var(--planetSize) * 24);
-        background: url(/assets/images/earth2.png);
+        background: url(/assets/images/webp.img/earth2.webp);
         background-size: cover;
         animation: spin 300s infinite linear reverse;
      }
@@ -124,7 +124,7 @@ a:hover, .nav-link:hover, h2:hover{
     .planet {
         width: calc(var(--planetSize) * 24);
         height: calc(var(--planetSize) * 24);
-        background: url(/assets/images/mars.png);
+        background: url(/assets/images/webp.img/mars.webp);
         background-size: cover;
         animation: spin 300s infinite linear;
      }
@@ -135,7 +135,7 @@ a:hover, .nav-link:hover, h2:hover{
     .planet {
         width: calc(var(--planetSize) * 24);
         height: calc(var(--planetSize) * 24);
-        background: url(/assets/images/jupiter1.png);
+        background: url(/assets/images/webp.img/jupiter1.webp);
         background-size: cover;
         animation: spin 300s infinite linear reverse;
      }
@@ -147,7 +147,7 @@ a:hover, .nav-link:hover, h2:hover{
         position: relative;
         width: calc(var(--planetSize) * 48);
         height: calc(var(--planetSize) * 22);
-        background: url(/assets/images/saturn.png) center;
+        background: url(/assets/images/webp.img/saturn.webp) center;
         background-size: cover;
     }
 }
@@ -157,7 +157,7 @@ a:hover, .nav-link:hover, h2:hover{
     .planet {
         width: calc(var(--planetSize) * 23);
         height: calc(var(--planetSize) * 23);
-        background: url(/assets/images/uranus.png);
+        background: url(/assets/images/webp.img/uranus.webp);
         background-size: cover;
         animation: spin 300s infinite linear reverse;
      }
@@ -168,7 +168,7 @@ a:hover, .nav-link:hover, h2:hover{
     .planet {
         width: calc(var(--planetSize) * 27);
         height: calc(var(--planetSize) * 27);
-        background: url(/assets/images/neptune.png);
+        background: url(/assets/images/webp.img/neptune.webp);
         background-size: cover;
         animation: spin 300s infinite linear;
      }
@@ -819,7 +819,6 @@ footer a {
         .star {
             width: 250px;
             height: 250px;
-            background: url(/assets/images/sun.png) no-repeat;
             background-size: cover;
             border-radius: 50%;
             margin: 0 auto;
@@ -858,7 +857,7 @@ footer a {
             height: calc(var(--planetSize) * 1.5);
             
             animation: mercuryOrbit calc(var(--orbitSpeed) * 1.2) infinite linear reverse; 
-            background-image: url(/assets/images/mercury.png) ;
+           
 
             .shadow {
                 animation: planetShadow calc(var(--orbitSpeed) * 1.2) infinite ;
@@ -876,7 +875,7 @@ footer a {
         .planet {
             width: calc(var(--planetSize) * 3.72);
             height: calc(var(--planetSize) * 3.72);
-            background-image: url(/assets/images/venus.png);
+           
             animation: venusOrbit calc(var(--orbitSpeed) * 1.5) infinite linear reverse;
 
             .shadow {
@@ -895,7 +894,7 @@ footer a {
         .planet {
             width: calc(var(--planetSize) * 3.92);
             height: calc(var(--planetSize) * 3.92);
-            background-image: url(/assets/images/earth2.png);
+            
             animation: earthOrbit calc(var(--orbitSpeed) * 2) infinite linear reverse;
 
             .shadow {
@@ -914,7 +913,7 @@ footer a {
         .planet {
             width: calc(var(--planetSize) * 2.9);
             height: calc(var(--planetSize) * 2.9);
-            background-image: url(/assets/images/mars.png);
+          
             animation: marsOrbit calc(var(--orbitSpeed) * 3) infinite linear reverse;
 
             .shadow {
@@ -934,7 +933,7 @@ footer a {
         .planet {
             width: calc(var(--planetSize) * 12);
             height: calc(var(--planetSize) * 12);
-            background-image: url(/assets/images/jupiter1.png);
+          
             animation: jupiterOrbit calc(var(--orbitSpeed) * 5) infinite linear reverse;
 
             .shadow {
@@ -954,7 +953,7 @@ footer a {
         .planet {
             width: calc(var(--planetSize) * 30);
             height: calc(var(--planetSize) * 30);
-            background-image: url(/assets/images/saturn.png);
+            
             animation: saturnOrbit calc(var(--orbitSpeed) * 8) infinite linear reverse;
 
             .shadow {
@@ -982,7 +981,7 @@ footer a {
         .planet {
             width: calc(var(--planetSize) * 4.68);
             height: calc(var(--planetSize) * 4.68);
-            background-image: url(/assets/images/uranus.png);
+           
             animation: uranusOrbit calc(var(--orbitSpeed) * 10) infinite linear reverse;
 
             .shadow {
@@ -1001,7 +1000,7 @@ footer a {
         .planet {
             width: calc(var(--planetSize) * 4.9 );
             height: calc(var(--planetSize) * 4.9);
-            background-image: url(/assets/images/neptune.png);
+          
             animation: neptuneOrbit calc(var(--orbitSpeed) * 15) infinite linear reverse;
 
             .shadow {
